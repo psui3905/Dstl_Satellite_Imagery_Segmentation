@@ -83,10 +83,10 @@ class Model(object):
             pi_structure = PiModel()
             z_labeled, self.model, self.model_test = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
             z_labeled_i, _, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-            z_labeled_i, _, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-            z_labeled_i, _, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            z_u_labeled, _, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            z_u_labeled_i, _, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
 
-            self.cost = get_loss(self, z_labeled, cost, cost_kwargs) + self.ramp * (tf.losses.mean_squared_error(z_labeled, z_labeled_i))
+            self.cost = get_loss(self, z_labeled, cost, cost_kwargs) + self.ramp * (tf.losses.mean_squared_error(z_labeled, z_labeled_i)+tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
             logits = z_labeled
         else:
             
