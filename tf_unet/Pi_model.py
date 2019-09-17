@@ -152,12 +152,11 @@ class PiModel:
 
         # create model 
         self.model = unet(X, keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=True, reuse=tf.AUTO_REUSE, **kwargs)
-        self.model_test = unet(X, keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=False, reuse=tf.AUTO_REUSE, **kwargs)
 
         # obtain logit from tensorlayer model
         # batch 16, 2 -- width, 3 -- height, channel -- 11
         self.logits = self.model.outputs[:,cropping:img_rows-cropping,cropping:img_cols-cropping,:]
-        return [self.logits, self.model, self.model_test]
+        return [self.logits, self.model]
 
     def __aditive_gaussian_noise(self, input, std):
         """ Function to add additive zero mean noise as described in the paper
