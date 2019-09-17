@@ -86,6 +86,7 @@ class Model(object):
             z_u_labeled, _, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
             z_u_labeled_i, _, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
 
+            self.model_test = unet(self.x, self.keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=False, reuse=True, **kwargs)
             self.cost = get_loss(self, z_labeled, cost, cost_kwargs) + self.ramp * (tf.losses.mean_squared_error(z_labeled, z_labeled_i)+tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
             logits = z_labeled
         else:

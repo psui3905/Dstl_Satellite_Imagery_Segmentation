@@ -133,7 +133,7 @@ class PiModel:
         future by tensorflow.
     """
 
-    def call(self, X, training=True, keep_prob=tf.placeholder(tf.float32, name="dropout_probability"), channels=3, batch_norm=False, n_class=1, img_rows=112, img_cols=112, is_train=True, cropping=0, cost_kwargs={"regularizer": None}, **kwargs):
+    def call(self, X, training=False, keep_prob=tf.placeholder(tf.float32, name="dropout_probability"), channels=3, batch_norm=False, n_class=1, img_rows=112, img_cols=112, is_train=True, cropping=0, cost_kwargs={"regularizer": None}, **kwargs):
         """ Function that allows running a tensor through the pi model
 
         Arguments:
