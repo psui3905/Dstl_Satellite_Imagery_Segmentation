@@ -63,9 +63,9 @@ class Model(object):
         self.y_shape = tf.placeholder("float", shape=[None, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class], name="y")
         self.keep_prob = tf.placeholder(tf.float32, name="dropout_probability")  # dropout (keep probability)
 
-        self.qx = tf.FIFOQueue(capacity=5, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows, img_cols, channels]))
-        self.qu_x = tf.FIFOQueue(capacity=5, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows, img_cols, channels]))
-        self.qy = tf.FIFOQueue(capacity=5, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class]))
+        self.qx = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows, img_cols, channels]))
+        self.qu_x = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows, img_cols, channels]))
+        self.qy = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class]))
         self.eqx = self.qx.enqueue(self.x_shape)
         self.equ_x = self.qu_x.enqueue(self.u_x_shape)
         self.eqy = self.qy.enqueue(self.y_shape)
@@ -151,7 +151,7 @@ class Model(object):
 
         """
 
-        gpu_id = "1"
+        gpu_id = "0"
         close_flag = 0
         if sess == None:
             close_flag = 1
@@ -164,36 +164,39 @@ class Model(object):
             # initialise session and global variables
             sess = tf.Session(config=config)
 
+        # Restore model weights from previously saved model
         if path != None and self.restored_flag == False:
 
             # Initialize variables
-            tl.layers.initialize_global_variables(sess)
+            sess.run(tf.global_variables_initializer())
 
-            # Restore model weights from previously saved model
-            self.restore(sess, path + 'model.npz')
- 
+            # Restore Model
+            self.restore(sess, path)
+        
         # Count time
-        start  = datetime.datetime.now()
-
+        start = datetime.datetime.now()
+  
         # separate a large batch of data into smaller ones for testing
-        batch = int(x_test.shape[0] / 2)
+        batch = int(x_test.shape[0] / 16)
         prediction = np.empty((0, self.y.shape[1] ,self.y.shape[2]), dtype=np.float32)
         for i in range(batch+1):
-
+            print("[Prediction][model] -- iter " + str(i))
             if i < batch:
-                b = x_test[i*2:(i+1)*2, :, :, :]
-                pred = tl.utils.predict(sess, self.model_test, b, self.x, self.pred_test, b.shape[0])
+                b = x_test[i*16:(i+1)*16, :, :, :]
+                #pred = tl.utils.predict(sess, self.model_test, b, self.x, self.pred_test, b.shape[0])
+                pred = sess.run(self.pred_test, feed_dict={self.x_shape: b})
                 pred = np.reshape(pred, (b.shape[0], self.y.shape[1] ,self.y.shape[2]))
                 prediction = np.concatenate((prediction, pred), axis=0)
-            elif x_test.shape[0]%2 != 0:
-                b = x_test[i*2:, :, :, :]
-                pred = tl.utils.predict(sess, self.model_test, b, self.x, self.pred_test, b.shape[0])
+            elif x_test.shape[0]%16 != 0:
+                b = x_test[i*16:, :, :, :]
+                #pred = tl.utils.predict(sess, self.model_test, b, self.x, self.pred_test, b.shape[0])
+                pred = sess.run(self.pred_test, feed_dict={self.x_shape: b})
                 pred = np.reshape(pred, (b.shape[0], self.y.shape[1] ,self.y.shape[2]))
                 prediction = np.concatenate((prediction, pred), axis=0)  
         
         prediction = np.reshape(prediction, (x_test.shape[0], self.y.shape[1] ,self.y.shape[2], 1))
 
-        # Print Prediction Time
+        # print Prediction Time
         end  = datetime.datetime.now()
         print("Prediction Time: {} Seconds".format(end-start))
 

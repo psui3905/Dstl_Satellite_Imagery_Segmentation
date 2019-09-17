@@ -47,7 +47,7 @@ class Trainer(object):
 
             if unlabeled_data_provider != None:
                 unlabel_batch_x = unlabeled_data_provider(self.batch_size)
-                sess.run(self.net.unlabel_eqx, feed_dict={self.net.unlabel_x_shape: unlabel_batch_x})
+                sess.run(self.net.equ_x, feed_dict={self.net.u_x_shape: unlabel_batch_x})
 
             sess.run(self.net.eqx, feed_dict={self.net.x_shape: batch_x})
             sess.run(self.net.eqy, feed_dict={self.net.y_shape: batch_y})
