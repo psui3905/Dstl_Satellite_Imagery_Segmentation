@@ -57,11 +57,23 @@ class Model(object):
         self.batch_norm = batch_norm
         self.summaries = kwargs.get("summaries", True)
 
-        self.x = tf.placeholder("float", shape=[None, img_rows, img_cols, channels], name="x")
-        self.y = tf.placeholder("float", shape=[None, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class], name="y")
-        self.keep_prob = tf.placeholder(tf.float32, name="dropout_probability")  # dropout (keep probability)
-        self.restored_flag = False
+        self.u_x_shape = tf.placeholder("float", shape=[None, img_rows, img_cols, channels], name="u_x")
 
+        self.x_shape = tf.placeholder("float", shape=[None, img_rows, img_cols, channels], name="x")
+        self.y_shape = tf.placeholder("float", shape=[None, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class], name="y")
+        self.keep_prob = tf.placeholder(tf.float32, name="dropout_probability")  # dropout (keep probability)
+
+        self.qx = tf.FIFOQueue(capacity=5, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows, img_cols, channels]))
+        self.qu_x = tf.FIFOQueue(capacity=5, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows, img_cols, channels]))
+        self.qy = tf.FIFOQueue(capacity=5, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class]))
+        self.eqx = self.qx.enqueue(self.x_shape)
+        self.equ_x = self.qu_x.enqueue(self.u_x_shape)
+        self.eqy = self.qy.enqueue(self.y_shape)
+       
+        self.x = self.qx.dequeue()
+        self.y = self.qy.dequeue()
+        self.u_x = self.qu_x.dequeue()
+        
         # Using Pi model
         self.pi_model = True
 
@@ -70,7 +82,9 @@ class Model(object):
         if self.pi_model:
             pi_structure = PiModel()
             z_labeled, self.model, self.model_test = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-            z_labeled_i, model_i, model_test_i = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            z_labeled_i, _, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            z_labeled_i, _, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            z_labeled_i, _, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
 
             self.cost = get_loss(self, z_labeled, cost, cost_kwargs) + self.ramp * (tf.losses.mean_squared_error(z_labeled, z_labeled_i))
             logits = z_labeled
