@@ -60,8 +60,8 @@ summaries 	=	True
 # ---------------------------
 
 # trainer initialization params
-batch_size 	= 	16
-veri_batch_size =	16
+batch_size 	= 	32
+veri_batch_size =	64
 optimizer 	= 	"momentum"  	# Momentum or adam
 veri_image_id	=	'6120_2_2'	# name of image for verification
 

@@ -147,19 +147,6 @@ class Trainer(object):
         # initialise functions for tensorboard and output paths
         self._initialize(training_iters, output_path, restore, prediction_path)
 
-        # enqueue & dequeue
-        # q1 = tf.FIFOQueue(capacity=epochs*training_iters, dtypes=tf.float32)
-        # q2 = tf.FIFOQueue(capacity=epochs*training_iters, dtypes=tf.float32)
-        # batch_x, batch_y = data_provider(self.batch_size)
-
-        # if extra_unlabeled_provider:
-        #     unlabel_batch_x = unlabeled_data_provider(self.batch_size)
-
-        # enqueue_x = q1.enqueue(batch_x)
-        # enqueue_y = q2.enqueue(batch_y)
-        # data_x = q1.dequeue()
-        # data_y = q2.dequeue()
-
         # GPU config: put this to the main param list later
         config = tf.ConfigProto()
         config.gpu_options.allow_growth = True
@@ -198,7 +185,7 @@ class Trainer(object):
         for epoch in range(epochs):
             total_loss = 0
             now = datetime.datetime.now()
-            self.net.ramp = ramp_up_function(epoch, 80)
+            ramp_value = ramp_up_function(epoch*10, 80)
             for step in range((epoch * training_iters), ((epoch + 1) * training_iters)):
 
                 # load data
@@ -206,7 +193,8 @@ class Trainer(object):
 
                 # Run optimization op (backprop)
                 summary_str, _, loss, lr, acc, jaccard, unsuper_loss, n_ramp_loss = sess.run(
-                        (self.summary_op, self.optimizer, self.net.cost, self.learning_rate_node, self.net.accuracy, self.net.jaccard, self.net.unsuper_loss, self.net.loss_n_ramp))
+                        (self.summary_op, self.optimizer, self.net.cost, self.learning_rate_node, self.net.accuracy, self.net.jaccard, 
+                        self.net.unsuper_loss, self.net.loss_n_ramp), feed_dict={self.net.ramp:ramp_up_function(epoch*10, 80)})
                 # Look into the code below (currently not used)
                 #if self.net.summaries and self.norm_grads:
                 #    avg_gradients = _update_avg_gradients(avg_gradients, gradients, step)
@@ -217,7 +205,7 @@ class Trainer(object):
                 #print(later1 - now1)
                 total_loss += loss
 
-                self.output_minibatch_stats(summary_writer, summary_str, step, loss, total_loss/(step%training_iters + 1), jaccard, acc, unsuper_loss, self.net.ramp, n_ramp_loss)
+                self.output_minibatch_stats(summary_writer, summary_str, step, loss, total_loss/(step%training_iters + 1), jaccard, acc, unsuper_loss, ramp_value, n_ramp_loss)
 
             later = datetime.datetime.now()
 

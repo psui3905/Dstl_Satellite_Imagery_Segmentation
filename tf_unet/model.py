@@ -46,6 +46,8 @@ class Model(object):
     :param cost_kwargs: (optional) kwargs passed to the cost function. See Unet._get_cost for more options
     """
 
+    
+
     def __init__(self, model_type="u-net", channels=3, batch_norm=False, n_class=1, img_rows=112, img_cols=112, is_train=True, cost="jaccard", cropping=0, cost_kwargs={"regularizer": None}, **kwargs):
         tf.reset_default_graph()
 
@@ -63,9 +65,9 @@ class Model(object):
         self.y_shape = tf.placeholder("float", shape=[None, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class], name="y")
         self.keep_prob = tf.placeholder(tf.float32, name="dropout_probability")  # dropout (keep probability)
 
-        self.qx = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows, img_cols, channels]))
-        self.qu_x = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows, img_cols, channels]))
-        self.qy = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([16, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class]))
+        self.qx = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([32, img_rows, img_cols, channels]))
+        self.qu_x = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([32, img_rows, img_cols, channels]))
+        self.qy = tf.FIFOQueue(capacity=10, dtypes=tf.float32, shapes=tf.TensorShape([32, img_rows - 2 * cropping, img_cols - 2 * cropping, n_class]))
         self.eqx = self.qx.enqueue(self.x_shape)
         self.equ_x = self.qu_x.enqueue(self.u_x_shape)
         self.eqy = self.qy.enqueue(self.y_shape)
@@ -78,7 +80,7 @@ class Model(object):
         # Using Pi model
         self.pi_model = True
         # self.unlabled_training = False
-        self.ramp = 0
+        self.ramp = tf.placeholder(tf.float32, shape=(),name='ramp')
 
         if self.pi_model:
             pi_structure = PiModel()
