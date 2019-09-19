@@ -217,7 +217,7 @@ class Trainer(object):
                 #print(later1 - now1)
                 total_loss += loss
 
-                self.output_minibatch_stats(summary_writer, summary_str, step, loss, total_loss/(step%training_iters + 1), jaccard, acc, unsuper_loss, ramp_up)
+                self.output_minibatch_stats(summary_writer, summary_str, step, loss, total_loss/(step%training_iters + 1), jaccard, acc, unsuper_loss, self.net.ramp)
 
             later = datetime.datetime.now()
 
