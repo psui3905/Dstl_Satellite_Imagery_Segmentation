@@ -205,8 +205,8 @@ class Trainer(object):
                 #batch_x, batch_y = data_provider(self.batch_size)
 
                 # Run optimization op (backprop)
-                summary_str, _, loss, lr, acc, jaccard, unsuper_loss = sess.run(
-                        (self.summary_op, self.optimizer, self.net.cost, self.learning_rate_node, self.net.accuracy, self.net.jaccard, self.net.unsuper_loss))
+                summary_str, _, loss, lr, acc, jaccard, unsuper_loss, n_ramp_loss = sess.run(
+                        (self.summary_op, self.optimizer, self.net.cost, self.learning_rate_node, self.net.accuracy, self.net.jaccard, self.net.unsuper_loss, self.net.loss_n_ramp))
                 # Look into the code below (currently not used)
                 #if self.net.summaries and self.norm_grads:
                 #    avg_gradients = _update_avg_gradients(avg_gradients, gradients, step)
@@ -217,7 +217,7 @@ class Trainer(object):
                 #print(later1 - now1)
                 total_loss += loss
 
-                self.output_minibatch_stats(summary_writer, summary_str, step, loss, total_loss/(step%training_iters + 1), jaccard, acc, unsuper_loss, self.net.ramp)
+                self.output_minibatch_stats(summary_writer, summary_str, step, loss, total_loss/(step%training_iters + 1), jaccard, acc, unsuper_loss, self.net.ramp, n_ramp_loss)
 
             later = datetime.datetime.now()
 
@@ -271,9 +271,9 @@ class Trainer(object):
     def output_epoch_stats(self, epoch, total_loss, training_iters, lr):
         logging.info("Epoch {:}, Average loss: {:.4f}, learning rate: {:.4f}".format(epoch, (total_loss / training_iters), lr))
 
-    def output_minibatch_stats(self, summary_writer, summary_str, step, loss, avg_loss, jaccard, acc, unsuper_loss, ramp_up):
+    def output_minibatch_stats(self, summary_writer, summary_str, step, loss, avg_loss, jaccard, acc, unsuper_loss, ramp_up, n_ramp_loss):
 
         summary_writer.add_summary(summary_str, step)
         summary_writer.flush()
-        logging.info("Iter {:}, Minibatch Loss= {:.4f}, Average Loss= {:.4f}, Jaccard= {:.4f}, Accuracy= {:.4f}, Unsupervised Loss= {:.4f}, Ramp up: {:.4f}".format(step,loss,avg_loss,jaccard,acc, unsuper_loss, ramp_up))
+        logging.info("Iter {:}, Minibatch Loss= {:.4f}, Average Loss= {:.4f}, Jaccard= {:.4f}, Accuracy= {:.4f}, Unsupervised Loss= {:.4f}, loss without ramp= {:.4f}, Ramp up: {:.4f}".format(step,loss,avg_loss,jaccard,acc, unsuper_loss, n_ramp_loss, ramp_up))
 
