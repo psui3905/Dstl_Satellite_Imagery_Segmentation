@@ -151,7 +151,7 @@ class PiModel:
             h = X
 
         # create model 
-        self.model = unet(X, keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=True, reuse=tf.AUTO_REUSE, **kwargs)
+        self.model = unet(h, keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=True, reuse=tf.AUTO_REUSE, **kwargs)
 
         # obtain logit from tensorlayer model
         # batch 16, 2 -- width, 3 -- height, channel -- 11

@@ -77,26 +77,29 @@ class Model(object):
         
         # Using Pi model
         self.pi_model = True
-        self.unlabled_training = False
+        # self.unlabled_training = False
         self.ramp = 100
 
         if self.pi_model:
             pi_structure = PiModel()
-            if self.unlabled_training:
-                z_u_labeled, self.model = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-                z_u_labeled_i, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-                logits = z_u_labeled
-                self.cost = self.ramp * (tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
-            else:
-                z_labeled, self.model = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-                z_labeled_i, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-                z_u_labeled, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-                z_u_labeled_i, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-                
-                logits = z_labeled
-                self.unsuper_loss = tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i)
-                self.cost = get_loss(self, z_labeled, cost, cost_kwargs) + self.ramp * (tf.losses.mean_squared_error(z_labeled, z_labeled_i)+tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
+            # if self.unlabled_training:
+            #     z_u_labeled, self.model = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            #     z_u_labeled_i, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            #     logits = z_u_labeled
+            #     self.cost = self.ramp * (tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
+            # else:
+            z_labeled, self.model = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            z_labeled_i, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            
+            z_u_labeled, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            z_u_labeled_i, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+            
+            logits = z_labeled
+            self.unsuper_loss = tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i)
             self.model_test = unet(self.x_shape, self.keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=False, reuse=tf.AUTO_REUSE, **kwargs)
+            
+            # Cost
+            self.cost = get_loss(self, z_labeled, cost, cost_kwargs) + self.ramp * (tf.losses.mean_squared_error(z_labeled, z_labeled_i)+tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
             
         else:
             # create model 
