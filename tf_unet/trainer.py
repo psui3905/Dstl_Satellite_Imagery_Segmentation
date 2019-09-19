@@ -8,6 +8,7 @@ import shutil
 import datetime
 import cv2
 import queue
+import sys
 import threading
 
 # TODO remove the need for importing extra functions here
@@ -177,7 +178,7 @@ class Trainer(object):
 
         # restore model for continue training
         if restore:
-            self.net.restore(sess, output_path + 'model.npz')
+            self.net.restore(sess, output_path + 'highest_model.npz')
 
         summary_writer = tf.summary.FileWriter(output_path, graph=sess.graph)
         logging.info("Start optimization")
@@ -204,8 +205,8 @@ class Trainer(object):
                 #batch_x, batch_y = data_provider(self.batch_size)
 
                 # Run optimization op (backprop)
-                summary_str, _, loss, lr, acc, jaccard = sess.run(
-                        (self.summary_op, self.optimizer, self.net.cost, self.learning_rate_node, self.net.accuracy, self.net.jaccard))
+                summary_str, _, loss, lr, acc, jaccard, unsuper_loss = sess.run(
+                        (self.summary_op, self.optimizer, self.net.cost, self.learning_rate_node, self.net.accuracy, self.net.jaccard, self.net.unsuper_loss))
                 # Look into the code below (currently not used)
                 #if self.net.summaries and self.norm_grads:
                 #    avg_gradients = _update_avg_gradients(avg_gradients, gradients, step)
@@ -216,7 +217,7 @@ class Trainer(object):
                 #print(later1 - now1)
                 total_loss += loss
 
-                self.output_minibatch_stats(summary_writer, summary_str, step, loss, total_loss/(step%training_iters + 1), jaccard, acc)
+                self.output_minibatch_stats(summary_writer, summary_str, step, loss, total_loss/(step%training_iters + 1), jaccard, acc, unsuper_loss)
 
             later = datetime.datetime.now()
 
@@ -232,13 +233,14 @@ class Trainer(object):
             if (epoch + 1 ) % 100 == 0:
                 self.net.save(sess, output_path + str(epoch + 1) + "_")
 
-            if ( epoch  ) % display_step == 0:
-                avg_IOU = self.store_prediction(sess, "Epoch_%s" % epoch, prediction_path, summary_writer, step)
+            # if ( epoch  ) % display_step == 0:
+            avg_IOU = self.store_prediction(sess, "Epoch_%s" % epoch, prediction_path, summary_writer, step)
 
-                if avg_IOU > highest_IOU:
-                    print("Saving Net ! ...")
-                    self.net.save(sess, output_path + 'highest_')
-                    highest_IOU = avg_IOU
+            if avg_IOU > highest_IOU:
+                print("Saving Net ! ...")
+                self.net.save(sess, output_path + 'highest_')
+                highest_IOU = avg_IOU
+            sys.stdout.flush()
         # release resources
         sess.close()
         logging.info("Optimization Finished!")
@@ -269,9 +271,9 @@ class Trainer(object):
     def output_epoch_stats(self, epoch, total_loss, training_iters, lr):
         logging.info("Epoch {:}, Average loss: {:.4f}, learning rate: {:.4f}".format(epoch, (total_loss / training_iters), lr))
 
-    def output_minibatch_stats(self, summary_writer, summary_str, step, loss, avg_loss, jaccard, acc):
+    def output_minibatch_stats(self, summary_writer, summary_str, step, loss, avg_loss, jaccard, acc, unsuper_loss):
 
         summary_writer.add_summary(summary_str, step)
         summary_writer.flush()
-        logging.info("Iter {:}, Minibatch Loss= {:.4f}, Average Loss= {:.4f}, Jaccard= {:.4f}, Accuracy= {:.4f}".format(step,loss,avg_loss,jaccard,acc))
+        logging.info("Iter {:}, Minibatch Loss= {:.4f}, Average Loss= {:.4f}, Jaccard= {:.4f}, Accuracy= {:.4f}".format(step,loss,avg_loss,jaccard,acc, unsuper_loss))
 

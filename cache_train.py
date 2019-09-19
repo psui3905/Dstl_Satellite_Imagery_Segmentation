@@ -19,6 +19,11 @@ gs = pd.read_csv(os.path.join(data_path, 'grid_sizes.csv'), names=['ImageId', 'X
 
 shapes = pd.read_csv(os.path.join(data_path, '3_shapes.csv'))
 
+informative_set = {'6020_0_1', '6020_1_4', '6020_2_1', '6020_3_3', '6030_0_3', '6030_2_0', '6030_2_1', '6030_4_0', 
+'6030_4_2', '6050_4_4', '6060_1_4', '6060_4_2', '6100_0_3', '6100_0_4', '6100_1_2', '6100_1_4', '6110_1_1', '6110_2_3', 
+'6110_4_1', '6120_1_2', '6120_1_4', '6120_2_3', '6120_3_1', '6140_1_1', '6140_2_2', '6140_2_3', '6140_2_4', '6140_3_0', 
+'6140_4_0', '6140_4_1', '6150_0_3', '6150_2_1', '6150_3_1', '6150_4_0', '6150_4_2', '6080_0_2'}
+
 CLASSES = {
     1: 'Building',
     2: 'Structure',
@@ -76,18 +81,19 @@ def cache_train(bands):
         # drop the test image
         if image_id == '6110_3_1':
             continue
+        
+        if image_id in informative_set:
+            image = extra_functions.read_image(image_id, bands)
+            _, height, width = image.shape
 
-        image = extra_functions.read_image(image_id, bands)
-        _, height, width = image.shape
+            imgs[i] = image[:, :min_train_height, :min_train_width]
 
-        imgs[i] = image[:, :min_train_height, :min_train_width]
+            # imgs_mask[i] = read_mask(image_id, height, width)[:, :min_train_height, :min_train_width] / 255
 
-        # imgs_mask[i] = read_mask(image_id, height, width)[:, :min_train_height, :min_train_width] / 255
+            ids += [image_id]
+            i += 1
 
-        ids += [image_id]
-        i += 1
-
-        if i == 50:
+        if i == 36:
             break;
 
     # fix from there: https://github.com/h5py/h5py/issues/441

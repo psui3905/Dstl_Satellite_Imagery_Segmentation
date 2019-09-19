@@ -63,7 +63,7 @@ summaries 	=	True
 batch_size 	= 	16
 veri_batch_size =	16
 optimizer 	= 	"momentum"  	# Momentum or adam
-veri_image_id	=	'6110_3_1'	# name of image for verification
+veri_image_id	=	'6120_2_2'	# name of image for verification
 
 if optimizer == "momentum":
     op_param = {'learning_rate': 0.2, 
@@ -77,7 +77,7 @@ elif optimizer == "adam":
 # training params
 model_save_path =	"./training_data_cross_5blk"
 nb_epoch 	=	600
-batch_pass 	=	20
+batch_pass 	=	400
 dropout 	=	1		# Dropout is not recommended in Conv net
 display_step 	=	3
 restore 	=	True		# Restore weights from pre-trained model

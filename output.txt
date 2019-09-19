@@ -1,0 +1,6660 @@
+[2019-09-17 14:32:41.186640] Creating and compiling model...
+[2019-09-17 14:32:43.487734] Reading train...
+(24, 11, 3345, 3338)
+0:01:49.237030
+0:00:00.273093
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:04.311002 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.4891
+IOU for Structure :	0.0000
+IOU for Road      :	0.0000
+IOU for Track     :	0.0000
+IOU for Trees     :	0.3302
+IOU for Crops     :	0.7207
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.0000
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4591
+Mean IOU          :	0.2726
+Save prediction ...
+Saving Net ! ...
+0:01:44.356321
+0:00:00.260891
+0:01:44.526251
+0:00:00.261316
+0:01:44.558001
+0:00:00.261395
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.870831 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5469
+IOU for Structure :	0.0000
+IOU for Road      :	0.0000
+IOU for Track     :	0.0000
+IOU for Trees     :	0.3846
+IOU for Crops     :	0.4155
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.0000
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.3118
+Mean IOU          :	0.2417
+Save prediction ...
+0:01:44.331468
+0:00:00.260829
+0:01:44.560845
+0:00:00.261402
+0:01:44.580947
+0:00:00.261452
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.936196 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5843
+IOU for Structure :	0.0000
+IOU for Road      :	0.0000
+IOU for Track     :	0.0000
+IOU for Trees     :	0.4211
+IOU for Crops     :	0.6821
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.0000
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4514
+Mean IOU          :	0.2854
+Save prediction ...
+Saving Net ! ...
+0:01:44.310170
+0:00:00.260775
+0:01:44.625709
+0:00:00.261564
+0:01:44.622362
+0:00:00.261556
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.852669 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5645
+IOU for Structure :	0.0000
+IOU for Road      :	0.0262
+IOU for Track     :	0.0024
+IOU for Trees     :	0.4292
+IOU for Crops     :	0.7443
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.0000
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4613
+Mean IOU          :	0.2934
+Save prediction ...
+Saving Net ! ...
+0:01:44.245234
+0:00:00.260613
+0:01:44.533396
+0:00:00.261333
+0:01:44.562356
+0:00:00.261406
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.798472 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5735
+IOU for Structure :	0.0000
+IOU for Road      :	0.1809
+IOU for Track     :	0.1216
+IOU for Trees     :	0.4115
+IOU for Crops     :	0.7574
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.0000
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4285
+Mean IOU          :	0.3158
+Save prediction ...
+Saving Net ! ...
+0:01:44.364419
+0:00:00.260911
+0:01:44.614176
+0:00:00.261535
+0:01:44.637795
+0:00:00.261594
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.904585 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5920
+IOU for Structure :	0.0000
+IOU for Road      :	0.2433
+IOU for Track     :	0.0138
+IOU for Trees     :	0.4819
+IOU for Crops     :	0.7738
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.0000
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4668
+Mean IOU          :	0.3247
+Save prediction ...
+Saving Net ! ...
+0:01:44.318252
+0:00:00.260796
+0:01:44.496667
+0:00:00.261242
+0:01:44.512339
+0:00:00.261281
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.840735 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5303
+IOU for Structure :	0.0000
+IOU for Road      :	0.4012
+IOU for Track     :	0.1040
+IOU for Trees     :	0.4547
+IOU for Crops     :	0.7554
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.0000
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4235
+Mean IOU          :	0.3336
+Save prediction ...
+Saving Net ! ...
+0:01:44.303641
+0:00:00.260759
+0:01:44.514747
+0:00:00.261287
+0:01:44.587013
+0:00:00.261468
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.874070 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5995
+IOU for Structure :	0.0000
+IOU for Road      :	0.6266
+IOU for Track     :	0.0135
+IOU for Trees     :	0.6087
+IOU for Crops     :	0.7733
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.4560
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4721
+Mean IOU          :	0.4136
+Save prediction ...
+Saving Net ! ...
+0:01:44.326610
+0:00:00.260817
+0:01:44.612144
+0:00:00.261530
+0:01:44.586911
+0:00:00.261467
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.847579 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6018
+IOU for Structure :	0.0001
+IOU for Road      :	0.6540
+IOU for Track     :	0.0080
+IOU for Trees     :	0.5624
+IOU for Crops     :	0.7858
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.3138
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5171
+Mean IOU          :	0.4039
+Save prediction ...
+0:01:44.361701
+0:00:00.260904
+0:01:44.546223
+0:00:00.261366
+0:01:44.576208
+0:00:00.261441
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.802523 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5951
+IOU for Structure :	0.0000
+IOU for Road      :	0.5488
+IOU for Track     :	0.0077
+IOU for Trees     :	0.6063
+IOU for Crops     :	0.7610
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.4143
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4768
+Mean IOU          :	0.4009
+Save prediction ...
+0:01:44.323971
+0:00:00.260810
+0:01:44.582503
+0:00:00.261456
+0:01:44.537364
+0:00:00.261343
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.878698 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6306
+IOU for Structure :	0.0039
+IOU for Road      :	0.5560
+IOU for Track     :	0.0082
+IOU for Trees     :	0.6006
+IOU for Crops     :	0.7332
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.4321
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.3523
+Mean IOU          :	0.3925
+Save prediction ...
+0:01:44.343987
+0:00:00.260860
+0:01:44.591897
+0:00:00.261480
+0:01:44.527863
+0:00:00.261320
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.837829 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6233
+IOU for Structure :	0.0053
+IOU for Road      :	0.5910
+IOU for Track     :	0.0075
+IOU for Trees     :	0.6431
+IOU for Crops     :	0.7758
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.4031
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5486
+Mean IOU          :	0.4180
+Save prediction ...
+Saving Net ! ...
+0:01:44.322241
+0:00:00.260806
+0:01:44.548272
+0:00:00.261371
+0:01:44.549359
+0:00:00.261373
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.821763 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5891
+IOU for Structure :	0.0018
+IOU for Road      :	0.6262
+IOU for Track     :	0.0012
+IOU for Trees     :	0.6283
+IOU for Crops     :	0.7941
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.4493
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4962
+Mean IOU          :	0.4169
+Save prediction ...
+0:01:44.340777
+0:00:00.260852
+0:01:44.545686
+0:00:00.261364
+0:01:44.494861
+0:00:00.261237
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.868538 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6073
+IOU for Structure :	0.0105
+IOU for Road      :	0.6500
+IOU for Track     :	0.0218
+IOU for Trees     :	0.6230
+IOU for Crops     :	0.7910
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.4985
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5175
+Mean IOU          :	0.4291
+Save prediction ...
+Saving Net ! ...
+0:01:44.268394
+0:00:00.260671
+0:01:44.512420
+0:00:00.261281
+0:01:44.475133
+0:00:00.261188
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.844802 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5875
+IOU for Structure :	0.0194
+IOU for Road      :	0.6938
+IOU for Track     :	0.0209
+IOU for Trees     :	0.6181
+IOU for Crops     :	0.7881
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.3750
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5359
+Mean IOU          :	0.4217
+Save prediction ...
+0:01:44.304264
+0:00:00.260761
+0:01:44.500329
+0:00:00.261251
+0:01:44.574384
+0:00:00.261436
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.886927 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6143
+IOU for Structure :	0.0154
+IOU for Road      :	0.6493
+IOU for Track     :	0.0163
+IOU for Trees     :	0.6065
+IOU for Crops     :	0.8058
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.3872
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5490
+Mean IOU          :	0.4222
+Save prediction ...
+0:01:44.331632
+0:00:00.260829
+0:01:44.527867
+0:00:00.261320
+0:01:44.582623
+0:00:00.261457
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.807007 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6059
+IOU for Structure :	0.0090
+IOU for Road      :	0.6642
+IOU for Track     :	0.0544
+IOU for Trees     :	0.6307
+IOU for Crops     :	0.8060
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.5648
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5576
+Mean IOU          :	0.4448
+Save prediction ...
+Saving Net ! ...
+0:01:44.352743
+0:00:00.260882
+0:01:44.636034
+0:00:00.261590
+0:01:44.639638
+0:00:00.261599
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.867277 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5906
+IOU for Structure :	0.0105
+IOU for Road      :	0.6878
+IOU for Track     :	0.0643
+IOU for Trees     :	0.5996
+IOU for Crops     :	0.8023
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.3734
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5233
+Mean IOU          :	0.4229
+Save prediction ...
+0:01:44.418155
+0:00:00.261045
+0:01:44.592802
+0:00:00.261482
+0:01:44.552534
+0:00:00.261381
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.875838 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6361
+IOU for Structure :	0.0234
+IOU for Road      :	0.6914
+IOU for Track     :	0.0380
+IOU for Trees     :	0.6381
+IOU for Crops     :	0.7944
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.3662
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5114
+Mean IOU          :	0.4272
+Save prediction ...
+0:01:44.394989
+0:00:00.260987
+0:01:44.539749
+0:00:00.261349
+0:01:44.541173
+0:00:00.261353
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.887458 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.5946
+IOU for Structure :	0.0064
+IOU for Road      :	0.6641
+IOU for Track     :	0.0254
+IOU for Trees     :	0.6096
+IOU for Crops     :	0.8129
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.6473
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5853
+Mean IOU          :	0.4496
+Save prediction ...
+Saving Net ! ...
+0:01:44.464326
+0:00:00.261161
+0:01:44.563866
+0:00:00.261410
+0:01:44.579753
+0:00:00.261449
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.859773 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6197
+IOU for Structure :	0.0310
+IOU for Road      :	0.6739
+IOU for Track     :	0.0561
+IOU for Trees     :	0.6409
+IOU for Crops     :	0.8013
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.6341
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5109
+Mean IOU          :	0.4516
+Save prediction ...
+Saving Net ! ...
+0:01:44.315739
+0:00:00.260789
+0:01:44.596846
+0:00:00.261492
+0:01:44.563530
+0:00:00.261409
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.822104 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6265
+IOU for Structure :	0.0140
+IOU for Road      :	0.6869
+IOU for Track     :	0.1018
+IOU for Trees     :	0.6209
+IOU for Crops     :	0.8083
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7492
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5665
+Mean IOU          :	0.4704
+Save prediction ...
+Saving Net ! ...
+0:01:44.323011
+0:00:00.260808
+0:01:44.609078
+0:00:00.261523
+0:01:44.554866
+0:00:00.261387
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.807251 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6085
+IOU for Structure :	0.0265
+IOU for Road      :	0.7362
+IOU for Track     :	0.0385
+IOU for Trees     :	0.6590
+IOU for Crops     :	0.8148
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.1715
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5808
+Mean IOU          :	0.4214
+Save prediction ...
+0:01:44.310409
+0:00:00.260776
+0:01:44.612762
+0:00:00.261532
+0:01:44.608794
+0:00:00.261522
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.906144 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6058
+IOU for Structure :	0.0132
+IOU for Road      :	0.6612
+IOU for Track     :	0.0663
+IOU for Trees     :	0.6366
+IOU for Crops     :	0.8192
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.5281
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5725
+Mean IOU          :	0.4457
+Save prediction ...
+0:01:44.372808
+0:00:00.260932
+0:01:44.545588
+0:00:00.261364
+0:01:44.618413
+0:00:00.261546
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.857497 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6176
+IOU for Structure :	0.0134
+IOU for Road      :	0.7062
+IOU for Track     :	0.0417
+IOU for Trees     :	0.6269
+IOU for Crops     :	0.8200
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7117
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5776
+Mean IOU          :	0.4650
+Save prediction ...
+0:01:44.348273
+0:00:00.260871
+0:01:44.516436
+0:00:00.261291
+0:01:44.513030
+0:00:00.261283
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.880346 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6554
+IOU for Structure :	0.0256
+IOU for Road      :	0.6987
+IOU for Track     :	0.1271
+IOU for Trees     :	0.6335
+IOU for Crops     :	0.8104
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7456
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5313
+Mean IOU          :	0.4752
+Save prediction ...
+Saving Net ! ...
+0:01:44.322790
+0:00:00.260807
+0:01:44.527866
+0:00:00.261320
+0:01:44.492983
+0:00:00.261232
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.916170 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6484
+IOU for Structure :	0.0316
+IOU for Road      :	0.6489
+IOU for Track     :	0.1607
+IOU for Trees     :	0.6542
+IOU for Crops     :	0.8346
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8253
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6060
+Mean IOU          :	0.4918
+Save prediction ...
+Saving Net ! ...
+0:01:44.288889
+0:00:00.260722
+0:01:44.536264
+0:00:00.261341
+0:01:44.544184
+0:00:00.261360
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.920015 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6598
+IOU for Structure :	0.0373
+IOU for Road      :	0.7289
+IOU for Track     :	0.1286
+IOU for Trees     :	0.6285
+IOU for Crops     :	0.8313
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7126
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5958
+Mean IOU          :	0.4839
+Save prediction ...
+0:01:44.251564
+0:00:00.260629
+0:01:44.505856
+0:00:00.261265
+0:01:44.498837
+0:00:00.261247
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.872709 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6354
+IOU for Structure :	0.0788
+IOU for Road      :	0.5415
+IOU for Track     :	0.1527
+IOU for Trees     :	0.6627
+IOU for Crops     :	0.8045
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7315
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5673
+Mean IOU          :	0.4704
+Save prediction ...
+0:01:44.318645
+0:00:00.260797
+0:01:45.176925
+0:00:00.262942
+0:01:44.568635
+0:00:00.261422
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.856003 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6519
+IOU for Structure :	0.0653
+IOU for Road      :	0.7227
+IOU for Track     :	0.1172
+IOU for Trees     :	0.6572
+IOU for Crops     :	0.8356
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.6578
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6035
+Mean IOU          :	0.4828
+Save prediction ...
+0:01:44.372552
+0:00:00.260931
+0:01:44.565447
+0:00:00.261414
+0:01:44.576399
+0:00:00.261441
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.852010 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6728
+IOU for Structure :	0.0652
+IOU for Road      :	0.7471
+IOU for Track     :	0.1380
+IOU for Trees     :	0.6501
+IOU for Crops     :	0.8354
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7966
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6018
+Mean IOU          :	0.5006
+Save prediction ...
+Saving Net ! ...
+0:01:44.317662
+0:00:00.260794
+0:01:44.598008
+0:00:00.261495
+0:01:44.594802
+0:00:00.261487
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.908283 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6699
+IOU for Structure :	0.0621
+IOU for Road      :	0.7243
+IOU for Track     :	0.1174
+IOU for Trees     :	0.6413
+IOU for Crops     :	0.8320
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.6189
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5796
+Mean IOU          :	0.4769
+Save prediction ...
+0:01:44.299903
+0:00:00.260750
+0:01:44.549733
+0:00:00.261374
+0:01:44.545809
+0:00:00.261365
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.858560 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6632
+IOU for Structure :	0.0635
+IOU for Road      :	0.7237
+IOU for Track     :	0.2098
+IOU for Trees     :	0.6776
+IOU for Crops     :	0.8433
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.6042
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6102
+Mean IOU          :	0.4905
+Save prediction ...
+0:01:44.331870
+0:00:00.260830
+0:01:44.499050
+0:00:00.261248
+0:01:44.625906
+0:00:00.261565
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.852909 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6383
+IOU for Structure :	0.0889
+IOU for Road      :	0.7019
+IOU for Track     :	0.1356
+IOU for Trees     :	0.6689
+IOU for Crops     :	0.8357
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7996
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6127
+Mean IOU          :	0.4983
+Save prediction ...
+0:01:44.318440
+0:00:00.260796
+0:01:44.532592
+0:00:00.261331
+0:01:44.537536
+0:00:00.261344
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.892157 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6371
+IOU for Structure :	0.0264
+IOU for Road      :	0.7160
+IOU for Track     :	0.2233
+IOU for Trees     :	0.6078
+IOU for Crops     :	0.8102
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7332
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5765
+Mean IOU          :	0.4846
+Save prediction ...
+0:01:44.330494
+0:00:00.260826
+0:01:44.556128
+0:00:00.261390
+0:01:44.566484
+0:00:00.261416
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.941832 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6382
+IOU for Structure :	0.0836
+IOU for Road      :	0.7642
+IOU for Track     :	0.2160
+IOU for Trees     :	0.6635
+IOU for Crops     :	0.8395
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7828
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6113
+Mean IOU          :	0.5090
+Save prediction ...
+Saving Net ! ...
+0:01:44.293460
+0:00:00.260734
+0:01:44.493956
+0:00:00.261235
+0:01:44.522941
+0:00:00.261307
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.869434 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6679
+IOU for Structure :	0.0582
+IOU for Road      :	0.7404
+IOU for Track     :	0.2432
+IOU for Trees     :	0.6425
+IOU for Crops     :	0.8432
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7487
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6057
+Mean IOU          :	0.5045
+Save prediction ...
+0:01:44.307764
+0:00:00.260769
+0:01:44.513340
+0:00:00.261283
+0:01:44.523966
+0:00:00.261310
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.853592 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6589
+IOU for Structure :	0.0524
+IOU for Road      :	0.7338
+IOU for Track     :	0.0984
+IOU for Trees     :	0.6634
+IOU for Crops     :	0.8357
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7874
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6315
+Mean IOU          :	0.4965
+Save prediction ...
+0:01:44.305147
+0:00:00.260763
+0:01:44.514330
+0:00:00.261286
+0:01:44.534266
+0:00:00.261336
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.845309 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6818
+IOU for Structure :	0.0318
+IOU for Road      :	0.7218
+IOU for Track     :	0.1576
+IOU for Trees     :	0.6775
+IOU for Crops     :	0.8163
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7744
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5586
+Mean IOU          :	0.4927
+Save prediction ...
+0:01:44.266243
+0:00:00.260666
+0:01:44.513551
+0:00:00.261284
+0:01:44.517510
+0:00:00.261294
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.907993 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6567
+IOU for Structure :	0.0838
+IOU for Road      :	0.7611
+IOU for Track     :	0.1385
+IOU for Trees     :	0.6495
+IOU for Crops     :	0.8191
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7820
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6157
+Mean IOU          :	0.5006
+Save prediction ...
+0:01:44.353684
+0:00:00.260884
+0:01:44.493079
+0:00:00.261233
+0:01:44.546143
+0:00:00.261365
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.860711 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6513
+IOU for Structure :	0.1036
+IOU for Road      :	0.7750
+IOU for Track     :	0.2009
+IOU for Trees     :	0.6165
+IOU for Crops     :	0.7664
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7502
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5677
+Mean IOU          :	0.4938
+Save prediction ...
+0:01:44.332449
+0:00:00.260831
+0:01:44.512676
+0:00:00.261282
+0:01:44.533293
+0:00:00.261333
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.878801 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6798
+IOU for Structure :	0.1173
+IOU for Road      :	0.7527
+IOU for Track     :	0.0892
+IOU for Trees     :	0.6691
+IOU for Crops     :	0.8535
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8120
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6454
+Mean IOU          :	0.5108
+Save prediction ...
+Saving Net ! ...
+0:01:44.304583
+0:00:00.260761
+0:01:44.571239
+0:00:00.261428
+0:01:44.553782
+0:00:00.261384
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.929660 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6783
+IOU for Structure :	0.0746
+IOU for Road      :	0.7474
+IOU for Track     :	0.2561
+IOU for Trees     :	0.6933
+IOU for Crops     :	0.8485
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8294
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6243
+Mean IOU          :	0.5229
+Save prediction ...
+Saving Net ! ...
+0:01:44.283879
+0:00:00.260710
+0:01:44.641485
+0:00:00.261604
+0:01:44.564060
+0:00:00.261410
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.919991 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6894
+IOU for Structure :	0.0359
+IOU for Road      :	0.7336
+IOU for Track     :	0.0637
+IOU for Trees     :	0.6617
+IOU for Crops     :	0.8379
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7770
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6412
+Mean IOU          :	0.4946
+Save prediction ...
+0:01:44.309159
+0:00:00.260773
+0:01:44.552678
+0:00:00.261382
+0:01:44.553661
+0:00:00.261384
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.873172 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6875
+IOU for Structure :	0.1263
+IOU for Road      :	0.7417
+IOU for Track     :	0.2473
+IOU for Trees     :	0.6816
+IOU for Crops     :	0.8623
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7874
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6636
+Mean IOU          :	0.5271
+Save prediction ...
+Saving Net ! ...
+0:01:44.309251
+0:00:00.260773
+0:01:44.580798
+0:00:00.261452
+0:01:44.644062
+0:00:00.261610
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.844950 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6722
+IOU for Structure :	0.0866
+IOU for Road      :	0.7921
+IOU for Track     :	0.2388
+IOU for Trees     :	0.6795
+IOU for Crops     :	0.8554
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8397
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6470
+Mean IOU          :	0.5283
+Save prediction ...
+Saving Net ! ...
+0:01:44.347711
+0:00:00.260869
+0:01:44.560411
+0:00:00.261401
+0:01:44.659375
+0:00:00.261648
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.804432 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6849
+IOU for Structure :	0.1334
+IOU for Road      :	0.7222
+IOU for Track     :	0.2783
+IOU for Trees     :	0.6534
+IOU for Crops     :	0.8534
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.6448
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6428
+Mean IOU          :	0.5103
+Save prediction ...
+0:01:44.339034
+0:00:00.260848
+0:01:44.649972
+0:00:00.261625
+0:01:44.713095
+0:00:00.261783
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.835094 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6691
+IOU for Structure :	0.0412
+IOU for Road      :	0.7237
+IOU for Track     :	0.2411
+IOU for Trees     :	0.6771
+IOU for Crops     :	0.8568
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8305
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6430
+Mean IOU          :	0.5166
+Save prediction ...
+0:01:44.400043
+0:00:00.261000
+0:01:44.753871
+0:00:00.261885
+0:01:44.693026
+0:00:00.261733
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.847728 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6760
+IOU for Structure :	0.1068
+IOU for Road      :	0.7558
+IOU for Track     :	0.1948
+IOU for Trees     :	0.6854
+IOU for Crops     :	0.8641
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8404
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6607
+Mean IOU          :	0.5258
+Save prediction ...
+0:01:44.430640
+0:00:00.261077
+0:01:44.640026
+0:00:00.261600
+0:01:44.604853
+0:00:00.261512
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.858022 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6742
+IOU for Structure :	0.1217
+IOU for Road      :	0.7832
+IOU for Track     :	0.2371
+IOU for Trees     :	0.6747
+IOU for Crops     :	0.8594
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7999
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6619
+Mean IOU          :	0.5284
+Save prediction ...
+Saving Net ! ...
+0:01:44.368871
+0:00:00.260922
+0:01:44.644292
+0:00:00.261611
+0:01:44.612690
+0:00:00.261532
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.874615 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6280
+IOU for Structure :	0.0960
+IOU for Road      :	0.6919
+IOU for Track     :	0.2033
+IOU for Trees     :	0.6950
+IOU for Crops     :	0.8586
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8517
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6167
+Mean IOU          :	0.5128
+Save prediction ...
+0:01:44.374669
+0:00:00.260937
+0:01:44.642626
+0:00:00.261607
+0:01:44.649354
+0:00:00.261623
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.831644 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6958
+IOU for Structure :	0.1150
+IOU for Road      :	0.7800
+IOU for Track     :	0.2040
+IOU for Trees     :	0.6613
+IOU for Crops     :	0.8455
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7658
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6396
+Mean IOU          :	0.5188
+Save prediction ...
+0:01:44.372375
+0:00:00.260931
+0:01:44.618754
+0:00:00.261547
+0:01:44.642459
+0:00:00.261606
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.885468 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6848
+IOU for Structure :	0.1070
+IOU for Road      :	0.7680
+IOU for Track     :	0.1032
+IOU for Trees     :	0.6832
+IOU for Crops     :	0.6156
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7826
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.4757
+Mean IOU          :	0.4746
+Save prediction ...
+0:01:44.363593
+0:00:00.260909
+0:01:44.631797
+0:00:00.261579
+0:01:44.643065
+0:00:00.261608
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.840152 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6635
+IOU for Structure :	0.1194
+IOU for Road      :	0.7163
+IOU for Track     :	0.1704
+IOU for Trees     :	0.6979
+IOU for Crops     :	0.8632
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8362
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6625
+Mean IOU          :	0.5208
+Save prediction ...
+0:01:44.341375
+0:00:00.260853
+0:01:44.592765
+0:00:00.261482
+0:01:44.629762
+0:00:00.261574
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.818473 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6821
+IOU for Structure :	0.0761
+IOU for Road      :	0.7398
+IOU for Track     :	0.2645
+IOU for Trees     :	0.6596
+IOU for Crops     :	0.8491
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8565
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6491
+Mean IOU          :	0.5252
+Save prediction ...
+0:01:44.342370
+0:00:00.260856
+0:01:44.610165
+0:00:00.261525
+0:01:44.643291
+0:00:00.261608
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.810932 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6956
+IOU for Structure :	0.0962
+IOU for Road      :	0.7749
+IOU for Track     :	0.1106
+IOU for Trees     :	0.6845
+IOU for Crops     :	0.8508
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8728
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6535
+Mean IOU          :	0.5217
+Save prediction ...
+0:01:44.360123
+0:00:00.260900
+0:01:44.540094
+0:00:00.261350
+0:01:44.638560
+0:00:00.261596
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.893924 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6943
+IOU for Structure :	0.0610
+IOU for Road      :	0.6297
+IOU for Track     :	0.2893
+IOU for Trees     :	0.6972
+IOU for Crops     :	0.8572
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8435
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6185
+Mean IOU          :	0.5173
+Save prediction ...
+0:01:44.226811
+0:00:00.260567
+0:01:44.498126
+0:00:00.261245
+0:01:44.541813
+0:00:00.261355
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.890550 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6852
+IOU for Structure :	0.0894
+IOU for Road      :	0.7152
+IOU for Track     :	0.1409
+IOU for Trees     :	0.6853
+IOU for Crops     :	0.8380
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8805
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6369
+Mean IOU          :	0.5156
+Save prediction ...
+0:01:44.299630
+0:00:00.260749
+0:01:44.606234
+0:00:00.261516
+0:01:44.580246
+0:00:00.261451
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.908421 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6941
+IOU for Structure :	0.1254
+IOU for Road      :	0.7930
+IOU for Track     :	0.2794
+IOU for Trees     :	0.6796
+IOU for Crops     :	0.8586
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8638
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6537
+Mean IOU          :	0.5407
+Save prediction ...
+Saving Net ! ...
+0:01:44.378155
+0:00:00.260945
+0:01:44.637816
+0:00:00.261595
+0:01:44.595879
+0:00:00.261490
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:04.051823 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6772
+IOU for Structure :	0.1250
+IOU for Road      :	0.7980
+IOU for Track     :	0.1607
+IOU for Trees     :	0.6812
+IOU for Crops     :	0.7509
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7940
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5777
+Mean IOU          :	0.5059
+Save prediction ...
+0:01:44.384313
+0:00:00.260961
+0:01:44.522278
+0:00:00.261306
+0:01:44.569954
+0:00:00.261425
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.966637 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6966
+IOU for Structure :	0.1277
+IOU for Road      :	0.7904
+IOU for Track     :	0.2300
+IOU for Trees     :	0.6889
+IOU for Crops     :	0.8671
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8060
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6639
+Mean IOU          :	0.5337
+Save prediction ...
+0:01:44.321996
+0:00:00.260805
+0:01:44.646074
+0:00:00.261615
+0:01:44.609576
+0:00:00.261524
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.941580 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6992
+IOU for Structure :	0.1275
+IOU for Road      :	0.7321
+IOU for Track     :	0.2392
+IOU for Trees     :	0.6834
+IOU for Crops     :	0.8650
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8807
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6555
+Mean IOU          :	0.5348
+Save prediction ...
+0:01:44.377750
+0:00:00.260944
+0:01:44.669785
+0:00:00.261674
+0:01:44.628105
+0:00:00.261570
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.945156 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7020
+IOU for Structure :	0.1298
+IOU for Road      :	0.7691
+IOU for Track     :	0.2248
+IOU for Trees     :	0.7075
+IOU for Crops     :	0.8650
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8635
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6614
+Mean IOU          :	0.5385
+Save prediction ...
+0:01:44.257222
+0:00:00.260643
+[2019-09-17 22:22:32.144592] Creating and compiling model...
+[2019-09-17 22:22:34.539826] Reading train...
+(24, 11, 3345, 3338)
+[2019-09-17 22:38:21.638982] Creating and compiling model...
+[2019-09-17 22:38:23.928526] Reading train...
+(24, 11, 3345, 3338)
+0:01:52.448109
+0:00:00.281120
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:04.040082 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6721
+IOU for Structure :	0.0897
+IOU for Road      :	0.6937
+IOU for Track     :	0.2105
+IOU for Trees     :	0.6950
+IOU for Crops     :	0.8300
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8484
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6202
+Mean IOU          :	0.5145
+Save prediction ...
+Saving Net ! ...
+0:01:44.330299
+0:00:00.260826
+0:01:44.677836
+0:00:00.261695
+0:01:44.414371
+0:00:00.261036
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.648339 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7017
+IOU for Structure :	0.1382
+IOU for Road      :	0.7411
+IOU for Track     :	0.1934
+IOU for Trees     :	0.7006
+IOU for Crops     :	0.8562
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8682
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6502
+Mean IOU          :	0.5318
+Save prediction ...
+Saving Net ! ...
+0:01:44.168262
+0:00:00.260421
+0:01:44.414178
+0:00:00.261035
+0:01:44.429898
+0:00:00.261075
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.641261 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6887
+IOU for Structure :	0.0871
+IOU for Road      :	0.7331
+IOU for Track     :	0.1862
+IOU for Trees     :	0.6954
+IOU for Crops     :	0.7629
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8653
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5788
+Mean IOU          :	0.5089
+Save prediction ...
+0:01:44.246690
+0:00:00.260617
+0:01:44.412212
+0:00:00.261031
+0:01:44.440859
+0:00:00.261102
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.743154 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6748
+IOU for Structure :	0.1336
+IOU for Road      :	0.6210
+IOU for Track     :	0.2487
+IOU for Trees     :	0.6892
+IOU for Crops     :	0.8266
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8486
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6222
+Mean IOU          :	0.5150
+Save prediction ...
+0:01:44.223730
+0:00:00.260559
+0:01:44.434491
+0:00:00.261086
+0:01:44.439127
+0:00:00.261098
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.693239 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6918
+IOU for Structure :	0.1097
+IOU for Road      :	0.8142
+IOU for Track     :	0.1415
+IOU for Trees     :	0.7018
+IOU for Crops     :	0.8385
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8767
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6391
+Mean IOU          :	0.5285
+Save prediction ...
+0:01:44.223000
+0:00:00.260558
+0:01:44.421149
+0:00:00.261053
+0:01:44.443103
+0:00:00.261108
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.744167 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7028
+IOU for Structure :	0.1407
+IOU for Road      :	0.7560
+IOU for Track     :	0.2377
+IOU for Trees     :	0.6917
+IOU for Crops     :	0.8573
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8383
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6608
+Mean IOU          :	0.5350
+Save prediction ...
+Saving Net ! ...
+0:01:44.198253
+0:00:00.260496
+0:01:44.426537
+0:00:00.261066
+0:01:44.436040
+0:00:00.261090
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.751945 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7040
+IOU for Structure :	0.1421
+IOU for Road      :	0.6732
+IOU for Track     :	0.2824
+IOU for Trees     :	0.7032
+IOU for Crops     :	0.8666
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8027
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6605
+Mean IOU          :	0.5304
+Save prediction ...
+0:01:44.226812
+0:00:00.260567
+0:01:44.418595
+0:00:00.261046
+0:01:44.415537
+0:00:00.261039
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.703913 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6773
+IOU for Structure :	0.1049
+IOU for Road      :	0.7712
+IOU for Track     :	0.1834
+IOU for Trees     :	0.6999
+IOU for Crops     :	0.8622
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8554
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6684
+Mean IOU          :	0.5293
+Save prediction ...
+0:01:44.258931
+0:00:00.260647
+0:01:44.423030
+0:00:00.261058
+0:01:44.411935
+0:00:00.261030
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.716675 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7059
+IOU for Structure :	0.1186
+IOU for Road      :	0.7432
+IOU for Track     :	0.1860
+IOU for Trees     :	0.7049
+IOU for Crops     :	0.8584
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8379
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6286
+Mean IOU          :	0.5258
+Save prediction ...
+0:01:44.231543
+0:00:00.260579
+0:01:44.416690
+0:00:00.261042
+0:01:44.426455
+0:00:00.261066
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.761831 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7099
+IOU for Structure :	0.0955
+IOU for Road      :	0.7982
+IOU for Track     :	0.2547
+IOU for Trees     :	0.7192
+IOU for Crops     :	0.8744
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8589
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6830
+Mean IOU          :	0.5449
+Save prediction ...
+Saving Net ! ...
+0:01:44.224625
+0:00:00.260562
+0:01:44.415204
+0:00:00.261038
+0:01:44.427027
+0:00:00.261068
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.741662 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6972
+IOU for Structure :	0.1133
+IOU for Road      :	0.6721
+IOU for Track     :	0.2421
+IOU for Trees     :	0.7003
+IOU for Crops     :	0.8356
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8537
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6278
+Mean IOU          :	0.5220
+Save prediction ...
+0:01:44.247632
+0:00:00.260619
+0:01:44.411682
+0:00:00.261029
+0:01:44.420983
+0:00:00.261052
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.714710 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6931
+IOU for Structure :	0.1456
+IOU for Road      :	0.8006
+IOU for Track     :	0.3129
+IOU for Trees     :	0.6704
+IOU for Crops     :	0.8522
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8838
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6628
+Mean IOU          :	0.5474
+Save prediction ...
+Saving Net ! ...
+0:01:44.280413
+0:00:00.260701
+0:01:44.407099
+0:00:00.261018
+0:01:44.438701
+0:00:00.261097
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.698658 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6717
+IOU for Structure :	0.1243
+IOU for Road      :	0.7942
+IOU for Track     :	0.2074
+IOU for Trees     :	0.7090
+IOU for Crops     :	0.8676
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8495
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6560
+Mean IOU          :	0.5345
+Save prediction ...
+0:01:44.259516
+0:00:00.260649
+0:01:44.730948
+0:00:00.261827
+0:01:44.679372
+0:00:00.261698
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.723169 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7165
+IOU for Structure :	0.1645
+IOU for Road      :	0.7059
+IOU for Track     :	0.2898
+IOU for Trees     :	0.6992
+IOU for Crops     :	0.8489
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7901
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6355
+Mean IOU          :	0.5319
+Save prediction ...
+0:01:44.263327
+0:00:00.260658
+0:01:44.416474
+0:00:00.261041
+0:01:44.413536
+0:00:00.261034
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.664808 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6915
+IOU for Structure :	0.1397
+IOU for Road      :	0.7869
+IOU for Track     :	0.2742
+IOU for Trees     :	0.6921
+IOU for Crops     :	0.8456
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7698
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6559
+Mean IOU          :	0.5323
+Save prediction ...
+0:01:44.248183
+0:00:00.260620
+0:01:44.434450
+0:00:00.261086
+0:01:44.431021
+0:00:00.261078
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.726954 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6726
+IOU for Structure :	0.1419
+IOU for Road      :	0.8039
+IOU for Track     :	0.2824
+IOU for Trees     :	0.6904
+IOU for Crops     :	0.8716
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8478
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6772
+Mean IOU          :	0.5443
+Save prediction ...
+0:01:44.231820
+0:00:00.260580
+0:01:44.407474
+0:00:00.261019
+0:01:44.419652
+0:00:00.261049
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.710491 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6974
+IOU for Structure :	0.1684
+IOU for Road      :	0.8044
+IOU for Track     :	0.2554
+IOU for Trees     :	0.6684
+IOU for Crops     :	0.8647
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9084
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6663
+Mean IOU          :	0.5485
+Save prediction ...
+Saving Net ! ...
+0:01:44.255981
+0:00:00.260640
+0:01:44.418374
+0:00:00.261046
+0:01:44.421629
+0:00:00.261054
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.721059 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7175
+IOU for Structure :	0.1439
+IOU for Road      :	0.7853
+IOU for Track     :	0.3248
+IOU for Trees     :	0.7114
+IOU for Crops     :	0.8777
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8785
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6803
+Mean IOU          :	0.5563
+Save prediction ...
+Saving Net ! ...
+0:01:44.208507
+0:00:00.260521
+0:01:44.410987
+0:00:00.261027
+0:01:44.416626
+0:00:00.261042
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.710616 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7099
+IOU for Structure :	0.1293
+IOU for Road      :	0.5621
+IOU for Track     :	0.1876
+IOU for Trees     :	0.7105
+IOU for Crops     :	0.8682
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8421
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6430
+Mean IOU          :	0.5139
+Save prediction ...
+0:01:44.274989
+0:00:00.260687
+0:01:44.426277
+0:00:00.261066
+0:01:44.429913
+0:00:00.261075
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.711064 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7256
+IOU for Structure :	0.1279
+IOU for Road      :	0.7782
+IOU for Track     :	0.1539
+IOU for Trees     :	0.7069
+IOU for Crops     :	0.8660
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7799
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6598
+Mean IOU          :	0.5271
+Save prediction ...
+0:01:44.287161
+0:00:00.260718
+0:01:44.413249
+0:00:00.261033
+0:01:44.400105
+0:00:00.261000
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.679363 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7282
+IOU for Structure :	0.1595
+IOU for Road      :	0.7601
+IOU for Track     :	0.2544
+IOU for Trees     :	0.7108
+IOU for Crops     :	0.8527
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8252
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6638
+Mean IOU          :	0.5413
+Save prediction ...
+0:01:44.299411
+0:00:00.260749
+0:01:44.436224
+0:00:00.261091
+0:01:44.447681
+0:00:00.261119
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.674531 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7267
+IOU for Structure :	0.1614
+IOU for Road      :	0.7553
+IOU for Track     :	0.3080
+IOU for Trees     :	0.7094
+IOU for Crops     :	0.8780
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8777
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6821
+Mean IOU          :	0.5544
+Save prediction ...
+0:01:44.307675
+0:00:00.260769
+0:01:44.429815
+0:00:00.261075
+0:01:44.438841
+0:00:00.261097
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.673471 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6942
+IOU for Structure :	0.1723
+IOU for Road      :	0.7981
+IOU for Track     :	0.2991
+IOU for Trees     :	0.7068
+IOU for Crops     :	0.8622
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8489
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6661
+Mean IOU          :	0.5498
+Save prediction ...
+0:01:44.295360
+0:00:00.260738
+0:01:44.444716
+0:00:00.261112
+0:01:44.433042
+0:00:00.261083
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.669854 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7170
+IOU for Structure :	0.1728
+IOU for Road      :	0.8365
+IOU for Track     :	0.1761
+IOU for Trees     :	0.7048
+IOU for Crops     :	0.8793
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8822
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6951
+Mean IOU          :	0.5513
+Save prediction ...
+0:01:44.279849
+0:00:00.260700
+0:01:44.417083
+0:00:00.261043
+0:01:44.434311
+0:00:00.261086
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.644299 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7209
+IOU for Structure :	0.1359
+IOU for Road      :	0.7577
+IOU for Track     :	0.2341
+IOU for Trees     :	0.7163
+IOU for Crops     :	0.8680
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8886
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6585
+Mean IOU          :	0.5436
+Save prediction ...
+0:01:44.273221
+0:00:00.260683
+0:01:44.434568
+0:00:00.261086
+0:01:44.432654
+0:00:00.261082
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.694955 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7094
+IOU for Structure :	0.1682
+IOU for Road      :	0.8321
+IOU for Track     :	0.2235
+IOU for Trees     :	0.7191
+IOU for Crops     :	0.8734
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8727
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6804
+Mean IOU          :	0.5526
+Save prediction ...
+0:01:44.287741
+0:00:00.260719
+0:01:44.437789
+0:00:00.261094
+0:01:44.416148
+0:00:00.261040
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.708511 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7150
+IOU for Structure :	0.1817
+IOU for Road      :	0.7972
+IOU for Track     :	0.2854
+IOU for Trees     :	0.7192
+IOU for Crops     :	0.8747
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8736
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6783
+Mean IOU          :	0.5568
+Save prediction ...
+Saving Net ! ...
+0:01:44.249126
+0:00:00.260623
+0:01:44.415559
+0:00:00.261039
+0:01:44.433530
+0:00:00.261084
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.672886 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7250
+IOU for Structure :	0.1646
+IOU for Road      :	0.8048
+IOU for Track     :	0.3089
+IOU for Trees     :	0.7278
+IOU for Crops     :	0.8770
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.4656
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6806
+Mean IOU          :	0.5231
+Save prediction ...
+0:01:44.310319
+0:00:00.260776
+0:01:44.525122
+0:00:00.261313
+0:01:44.420321
+0:00:00.261051
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.643880 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7121
+IOU for Structure :	0.1465
+IOU for Road      :	0.8034
+IOU for Track     :	0.3095
+IOU for Trees     :	0.7155
+IOU for Crops     :	0.8724
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8545
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6929
+Mean IOU          :	0.5551
+Save prediction ...
+0:01:44.275872
+0:00:00.260690
+0:01:44.431616
+0:00:00.261079
+0:01:44.423615
+0:00:00.261059
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.666800 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7207
+IOU for Structure :	0.1580
+IOU for Road      :	0.7860
+IOU for Track     :	0.2669
+IOU for Trees     :	0.7177
+IOU for Crops     :	0.8781
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.6992
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6864
+Mean IOU          :	0.5376
+Save prediction ...
+0:01:44.301917
+0:00:00.260755
+0:01:44.441536
+0:00:00.261104
+0:01:44.422842
+0:00:00.261057
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.666582 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7230
+IOU for Structure :	0.1021
+IOU for Road      :	0.8063
+IOU for Track     :	0.2144
+IOU for Trees     :	0.7022
+IOU for Crops     :	0.8826
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8521
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7049
+Mean IOU          :	0.5443
+Save prediction ...
+0:01:44.276410
+0:00:00.260691
+0:01:44.427050
+0:00:00.261068
+0:01:44.420144
+0:00:00.261050
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.620545 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7062
+IOU for Structure :	0.1411
+IOU for Road      :	0.7542
+IOU for Track     :	0.3295
+IOU for Trees     :	0.6650
+IOU for Crops     :	0.8059
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8352
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6350
+Mean IOU          :	0.5338
+Save prediction ...
+0:01:44.281645
+0:00:00.260704
+0:01:44.432626
+0:00:00.261082
+0:01:44.434580
+0:00:00.261086
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.666506 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7218
+IOU for Structure :	0.2090
+IOU for Road      :	0.7970
+IOU for Track     :	0.1907
+IOU for Trees     :	0.7211
+IOU for Crops     :	0.8724
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7061
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6898
+Mean IOU          :	0.5371
+Save prediction ...
+0:01:44.271938
+0:00:00.260680
+0:01:44.424258
+0:00:00.261061
+0:01:44.426183
+0:00:00.261065
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.721956 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7324
+IOU for Structure :	0.2109
+IOU for Road      :	0.8322
+IOU for Track     :	0.3256
+IOU for Trees     :	0.6878
+IOU for Crops     :	0.8748
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8877
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6952
+Mean IOU          :	0.5679
+Save prediction ...
+Saving Net ! ...
+0:01:44.218889
+0:00:00.260547
+0:01:44.433691
+0:00:00.261084
+0:01:44.423972
+0:00:00.261060
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.701409 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7201
+IOU for Structure :	0.1189
+IOU for Road      :	0.7903
+IOU for Track     :	0.3355
+IOU for Trees     :	0.7056
+IOU for Crops     :	0.8839
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8144
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6945
+Mean IOU          :	0.5512
+Save prediction ...
+0:01:44.305060
+0:00:00.260763
+0:01:44.418364
+0:00:00.261046
+0:01:44.433097
+0:00:00.261083
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.668531 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7405
+IOU for Structure :	0.2139
+IOU for Road      :	0.7762
+IOU for Track     :	0.2201
+IOU for Trees     :	0.7099
+IOU for Crops     :	0.8676
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8454
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6746
+Mean IOU          :	0.5498
+Save prediction ...
+0:01:44.264642
+0:00:00.260662
+0:01:44.415251
+0:00:00.261038
+0:01:44.427835
+0:00:00.261070
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.762448 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7124
+IOU for Structure :	0.1571
+IOU for Road      :	0.8170
+IOU for Track     :	0.2639
+IOU for Trees     :	0.7242
+IOU for Crops     :	0.8716
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8149
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6797
+Mean IOU          :	0.5492
+Save prediction ...
+0:01:44.293218
+0:00:00.260733
+0:01:44.421700
+0:00:00.261054
+0:01:44.426434
+0:00:00.261066
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.765308 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7195
+IOU for Structure :	0.1684
+IOU for Road      :	0.7996
+IOU for Track     :	0.1632
+IOU for Trees     :	0.7202
+IOU for Crops     :	0.8780
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7561
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6981
+Mean IOU          :	0.5366
+Save prediction ...
+0:01:44.282525
+0:00:00.260706
+0:01:44.441449
+0:00:00.261104
+0:01:44.529123
+0:00:00.261323
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.675934 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7333
+IOU for Structure :	0.1673
+IOU for Road      :	0.8097
+IOU for Track     :	0.3321
+IOU for Trees     :	0.7137
+IOU for Crops     :	0.8715
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8643
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6678
+Mean IOU          :	0.5600
+Save prediction ...
+0:01:44.280254
+0:00:00.260701
+0:01:44.439527
+0:00:00.261099
+0:01:44.428268
+0:00:00.261071
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.679682 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7286
+IOU for Structure :	0.1726
+IOU for Road      :	0.8337
+IOU for Track     :	0.3481
+IOU for Trees     :	0.6949
+IOU for Crops     :	0.8733
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8604
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6798
+Mean IOU          :	0.5628
+Save prediction ...
+0:01:44.278794
+0:00:00.260697
+0:01:44.436762
+0:00:00.261092
+0:01:44.434668
+0:00:00.261087
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.721161 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7251
+IOU for Structure :	0.1215
+IOU for Road      :	0.8162
+IOU for Track     :	0.2619
+IOU for Trees     :	0.7100
+IOU for Crops     :	0.8802
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8628
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6995
+Mean IOU          :	0.5525
+Save prediction ...
+0:01:44.290362
+0:00:00.260726
+0:01:44.439418
+0:00:00.261099
+0:01:44.429550
+0:00:00.261074
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.660570 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7224
+IOU for Structure :	0.1261
+IOU for Road      :	0.8226
+IOU for Track     :	0.3356
+IOU for Trees     :	0.7232
+IOU for Crops     :	0.8649
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8497
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6643
+Mean IOU          :	0.5553
+Save prediction ...
+0:01:44.307222
+0:00:00.260768
+0:01:44.435676
+0:00:00.261089
+0:01:44.434264
+0:00:00.261086
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.625716 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7284
+IOU for Structure :	0.1664
+IOU for Road      :	0.8139
+IOU for Track     :	0.3416
+IOU for Trees     :	0.7234
+IOU for Crops     :	0.8823
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8604
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6911
+Mean IOU          :	0.5643
+Save prediction ...
+0:01:44.306116
+0:00:00.260765
+0:01:44.415837
+0:00:00.261040
+0:01:44.422474
+0:00:00.261056
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.647779 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7240
+IOU for Structure :	0.1681
+IOU for Road      :	0.8352
+IOU for Track     :	0.3171
+IOU for Trees     :	0.7104
+IOU for Crops     :	0.8808
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8755
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6967
+Mean IOU          :	0.5643
+Save prediction ...
+0:01:44.258770
+0:00:00.260647
+0:01:44.421181
+0:00:00.261053
+0:01:44.416905
+0:00:00.261042
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.654785 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7232
+IOU for Structure :	0.2340
+IOU for Road      :	0.8060
+IOU for Track     :	0.3339
+IOU for Trees     :	0.7267
+IOU for Crops     :	0.8819
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8342
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6930
+Mean IOU          :	0.5666
+Save prediction ...
+0:01:44.284699
+0:00:00.260712
+0:01:44.409610
+0:00:00.261024
+0:01:44.422644
+0:00:00.261057
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.691048 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7423
+IOU for Structure :	0.1747
+IOU for Road      :	0.8245
+IOU for Track     :	0.3864
+IOU for Trees     :	0.7144
+IOU for Crops     :	0.8846
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8584
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7041
+Mean IOU          :	0.5717
+Save prediction ...
+Saving Net ! ...
+0:01:44.270331
+0:00:00.260676
+0:01:44.427971
+0:00:00.261070
+0:01:44.428976
+0:00:00.261072
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.659850 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7156
+IOU for Structure :	0.1181
+IOU for Road      :	0.7646
+IOU for Track     :	0.2585
+IOU for Trees     :	0.7126
+IOU for Crops     :	0.8745
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8364
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6881
+Mean IOU          :	0.5426
+Save prediction ...
+0:01:44.270025
+0:00:00.260675
+0:01:44.435694
+0:00:00.261089
+0:01:44.413873
+0:00:00.261035
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.680764 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7333
+IOU for Structure :	0.2084
+IOU for Road      :	0.8092
+IOU for Track     :	0.3201
+IOU for Trees     :	0.7185
+IOU for Crops     :	0.8813
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8377
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7010
+Mean IOU          :	0.5645
+Save prediction ...
+0:01:44.305223
+0:00:00.260763
+0:01:44.418500
+0:00:00.261046
+0:01:44.415576
+0:00:00.261039
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.674570 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7307
+IOU for Structure :	0.1137
+IOU for Road      :	0.8149
+IOU for Track     :	0.3553
+IOU for Trees     :	0.7060
+IOU for Crops     :	0.8700
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8086
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6800
+Mean IOU          :	0.5527
+Save prediction ...
+0:01:44.291895
+0:00:00.260730
+0:01:44.421438
+0:00:00.261054
+0:01:44.434030
+0:00:00.261085
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.669560 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7357
+IOU for Structure :	0.1863
+IOU for Road      :	0.8120
+IOU for Track     :	0.2924
+IOU for Trees     :	0.7278
+IOU for Crops     :	0.8810
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7301
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6902
+Mean IOU          :	0.5505
+Save prediction ...
+0:01:44.257235
+0:00:00.260643
+0:01:44.427833
+0:00:00.261070
+0:01:44.442274
+0:00:00.261106
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.687116 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7365
+IOU for Structure :	0.2151
+IOU for Road      :	0.7921
+IOU for Track     :	0.3526
+IOU for Trees     :	0.7093
+IOU for Crops     :	0.7761
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8024
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6098
+Mean IOU          :	0.5449
+Save prediction ...
+0:01:44.287289
+0:00:00.260718
+0:01:44.425789
+0:00:00.261064
+0:01:44.404253
+0:00:00.261011
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.661391 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7356
+IOU for Structure :	0.1795
+IOU for Road      :	0.8283
+IOU for Track     :	0.2756
+IOU for Trees     :	0.7184
+IOU for Crops     :	0.8852
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7590
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7064
+Mean IOU          :	0.5535
+Save prediction ...
+0:01:44.264330
+0:00:00.260661
+0:01:44.437235
+0:00:00.261093
+0:01:44.418437
+0:00:00.261046
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.667677 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7435
+IOU for Structure :	0.1816
+IOU for Road      :	0.8210
+IOU for Track     :	0.2903
+IOU for Trees     :	0.7109
+IOU for Crops     :	0.8560
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8983
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6809
+Mean IOU          :	0.5621
+Save prediction ...
+0:01:44.259349
+0:00:00.260648
+0:01:44.415556
+0:00:00.261039
+0:01:44.411963
+0:00:00.261030
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.683285 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7323
+IOU for Structure :	0.1524
+IOU for Road      :	0.7988
+IOU for Track     :	0.3634
+IOU for Trees     :	0.7135
+IOU for Crops     :	0.8698
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8657
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6581
+Mean IOU          :	0.5595
+Save prediction ...
+0:01:44.270705
+0:00:00.260677
+0:01:44.434811
+0:00:00.261087
+0:01:44.433215
+0:00:00.261083
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.681110 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7396
+IOU for Structure :	0.1266
+IOU for Road      :	0.7912
+IOU for Track     :	0.3426
+IOU for Trees     :	0.7204
+IOU for Crops     :	0.8502
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8774
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6671
+Mean IOU          :	0.5559
+Save prediction ...
+0:01:44.305354
+0:00:00.260763
+0:01:44.421302
+0:00:00.261053
+0:01:44.417742
+0:00:00.261044
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.647658 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7386
+IOU for Structure :	0.1858
+IOU for Road      :	0.8076
+IOU for Track     :	0.3787
+IOU for Trees     :	0.7148
+IOU for Crops     :	0.8687
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8281
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6815
+Mean IOU          :	0.5640
+Save prediction ...
+0:01:44.289905
+0:00:00.260725
+0:01:44.436195
+0:00:00.261090
+0:01:44.441867
+0:00:00.261105
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.698665 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7268
+IOU for Structure :	0.1539
+IOU for Road      :	0.8160
+IOU for Track     :	0.3092
+IOU for Trees     :	0.7181
+IOU for Crops     :	0.8736
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8965
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6795
+Mean IOU          :	0.5612
+Save prediction ...
+0:01:44.265687
+0:00:00.260664
+0:01:44.431560
+0:00:00.261079
+0:01:44.417296
+0:00:00.261043
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.663509 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7294
+IOU for Structure :	0.1793
+IOU for Road      :	0.7396
+IOU for Track     :	0.3271
+IOU for Trees     :	0.7114
+IOU for Crops     :	0.8793
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8936
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6963
+Mean IOU          :	0.5596
+Save prediction ...
+0:01:44.273115
+0:00:00.260683
+0:01:44.431364
+0:00:00.261078
+0:01:44.402801
+0:00:00.261007
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.705669 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7440
+IOU for Structure :	0.2127
+IOU for Road      :	0.8267
+IOU for Track     :	0.3554
+IOU for Trees     :	0.7047
+IOU for Crops     :	0.8847
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8505
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6948
+Mean IOU          :	0.5703
+Save prediction ...
+0:01:44.283469
+0:00:00.260709
+0:01:44.443506
+0:00:00.261109
+0:01:44.430866
+0:00:00.261077
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.664944 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7403
+IOU for Structure :	0.1908
+IOU for Road      :	0.8309
+IOU for Track     :	0.3705
+IOU for Trees     :	0.7273
+IOU for Crops     :	0.8919
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8765
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7141
+Mean IOU          :	0.5766
+Save prediction ...
+Saving Net ! ...
+0:01:44.328610
+0:00:00.260822
+0:01:44.415932
+0:00:00.261040
+0:01:44.477176
+0:00:00.261193
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.694556 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7249
+IOU for Structure :	0.1475
+IOU for Road      :	0.8026
+IOU for Track     :	0.3653
+IOU for Trees     :	0.6930
+IOU for Crops     :	0.8714
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8361
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6761
+Mean IOU          :	0.5561
+Save prediction ...
+0:01:44.267880
+0:00:00.260670
+0:01:44.424806
+0:00:00.261062
+0:01:44.432793
+0:00:00.261082
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.758823 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7266
+IOU for Structure :	0.1865
+IOU for Road      :	0.8309
+IOU for Track     :	0.3288
+IOU for Trees     :	0.7245
+IOU for Crops     :	0.8831
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8680
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7041
+Mean IOU          :	0.5684
+Save prediction ...
+0:01:44.289135
+0:00:00.260723
+0:01:44.424054
+0:00:00.261060
+0:01:44.425943
+0:00:00.261065
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.672380 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7235
+IOU for Structure :	0.1822
+IOU for Road      :	0.7795
+IOU for Track     :	0.3127
+IOU for Trees     :	0.7140
+IOU for Crops     :	0.8773
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8648
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6792
+Mean IOU          :	0.5576
+Save prediction ...
+0:01:44.352650
+0:00:00.260882
+0:01:44.410645
+0:00:00.261027
+0:01:44.427278
+0:00:00.261068
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.678362 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7200
+IOU for Structure :	0.1243
+IOU for Road      :	0.8207
+IOU for Track     :	0.3188
+IOU for Trees     :	0.7285
+IOU for Crops     :	0.7662
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7290
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.5989
+Mean IOU          :	0.5279
+Save prediction ...
+0:01:44.273163
+0:00:00.260683
+0:01:44.414034
+0:00:00.261035
+0:01:44.422554
+0:00:00.261056
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.671630 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7322
+IOU for Structure :	0.1763
+IOU for Road      :	0.8342
+IOU for Track     :	0.3406
+IOU for Trees     :	0.7289
+IOU for Crops     :	0.8928
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7704
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7159
+Mean IOU          :	0.5628
+Save prediction ...
+0:01:44.285029
+0:00:00.260713
+0:01:44.428534
+0:00:00.261071
+0:01:44.421867
+0:00:00.261055
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.671765 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7471
+IOU for Structure :	0.1968
+IOU for Road      :	0.8255
+IOU for Track     :	0.2295
+IOU for Trees     :	0.7176
+IOU for Crops     :	0.8585
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8418
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6849
+Mean IOU          :	0.5547
+Save prediction ...
+0:01:44.270000
+0:00:00.260675
+0:01:44.422377
+0:00:00.261056
+0:01:44.415568
+0:00:00.261039
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.647048 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7311
+IOU for Structure :	0.1834
+IOU for Road      :	0.8332
+IOU for Track     :	0.3480
+IOU for Trees     :	0.7177
+IOU for Crops     :	0.8854
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8576
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6946
+Mean IOU          :	0.5683
+Save prediction ...
+0:01:44.289418
+0:00:00.260724
+0:01:44.407112
+0:00:00.261018
+0:01:44.428742
+0:00:00.261072
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.658690 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7391
+IOU for Structure :	0.2086
+IOU for Road      :	0.8056
+IOU for Track     :	0.3110
+IOU for Trees     :	0.7212
+IOU for Crops     :	0.8685
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8984
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6979
+Mean IOU          :	0.5682
+Save prediction ...
+0:01:44.332126
+0:00:00.260830
+0:01:44.411716
+0:00:00.261029
+0:01:44.398172
+0:00:00.260995
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.689534 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7325
+IOU for Structure :	0.2212
+IOU for Road      :	0.8092
+IOU for Track     :	0.3086
+IOU for Trees     :	0.7313
+IOU for Crops     :	0.8851
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8179
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7127
+Mean IOU          :	0.5653
+Save prediction ...
+0:01:44.312112
+0:00:00.260780
+0:01:44.400608
+0:00:00.261002
+0:01:44.411531
+0:00:00.261029
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.655066 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7427
+IOU for Structure :	0.1747
+IOU for Road      :	0.8444
+IOU for Track     :	0.3819
+IOU for Trees     :	0.7269
+IOU for Crops     :	0.8897
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7873
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7085
+Mean IOU          :	0.5687
+Save prediction ...
+0:01:44.297506
+0:00:00.260744
+0:01:44.422582
+0:00:00.261056
+0:01:44.417290
+0:00:00.261043
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.655445 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7304
+IOU for Structure :	0.2115
+IOU for Road      :	0.7622
+IOU for Track     :	0.3464
+IOU for Trees     :	0.7315
+IOU for Crops     :	0.8566
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8724
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6757
+Mean IOU          :	0.5624
+Save prediction ...
+0:01:44.252218
+0:00:00.260631
+0:01:44.414055
+0:00:00.261035
+0:01:44.428456
+0:00:00.261071
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.661037 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7240
+IOU for Structure :	0.1765
+IOU for Road      :	0.8411
+IOU for Track     :	0.3229
+IOU for Trees     :	0.7290
+IOU for Crops     :	0.8910
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8739
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7180
+Mean IOU          :	0.5706
+Save prediction ...
+0:01:44.461871
+0:00:00.261155
+0:01:44.416159
+0:00:00.261040
+0:01:44.418309
+0:00:00.261046
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.686259 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7356
+IOU for Structure :	0.2196
+IOU for Road      :	0.8180
+IOU for Track     :	0.2679
+IOU for Trees     :	0.7209
+IOU for Crops     :	0.8889
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7781
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7172
+Mean IOU          :	0.5587
+Save prediction ...
+0:01:44.318291
+0:00:00.260796
+0:01:44.422292
+0:00:00.261056
+0:01:44.447363
+0:00:00.261118
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.648117 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7406
+IOU for Structure :	0.2051
+IOU for Road      :	0.8183
+IOU for Track     :	0.3276
+IOU for Trees     :	0.7208
+IOU for Crops     :	0.8842
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8890
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6979
+Mean IOU          :	0.5712
+Save prediction ...
+0:01:44.298387
+0:00:00.260746
+0:01:44.400126
+0:00:00.261000
+0:01:44.425303
+0:00:00.261063
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.704402 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7362
+IOU for Structure :	0.1516
+IOU for Road      :	0.7234
+IOU for Track     :	0.3608
+IOU for Trees     :	0.7311
+IOU for Crops     :	0.8733
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8939
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6788
+Mean IOU          :	0.5590
+Save prediction ...
+0:01:44.286883
+0:00:00.260717
+0:01:44.422528
+0:00:00.261056
+0:01:44.422140
+0:00:00.261055
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.691408 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7387
+IOU for Structure :	0.2107
+IOU for Road      :	0.8453
+IOU for Track     :	0.3166
+IOU for Trees     :	0.7285
+IOU for Crops     :	0.8938
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9074
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7273
+Mean IOU          :	0.5789
+Save prediction ...
+Saving Net ! ...
+0:01:44.214335
+0:00:00.260536
+0:01:44.417350
+0:00:00.261043
+0:01:44.401843
+0:00:00.261005
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.718979 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7464
+IOU for Structure :	0.2233
+IOU for Road      :	0.8428
+IOU for Track     :	0.3500
+IOU for Trees     :	0.7335
+IOU for Crops     :	0.8837
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8681
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7148
+Mean IOU          :	0.5784
+Save prediction ...
+0:01:44.223043
+0:00:00.260558
+0:01:44.410258
+0:00:00.261026
+0:01:44.428045
+0:00:00.261070
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.716774 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7352
+IOU for Structure :	0.2164
+IOU for Road      :	0.7965
+IOU for Track     :	0.3780
+IOU for Trees     :	0.7235
+IOU for Crops     :	0.8584
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8487
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6797
+Mean IOU          :	0.5669
+Save prediction ...
+0:01:44.219211
+0:00:00.260548
+0:01:44.414384
+0:00:00.261036
+0:01:44.429883
+0:00:00.261075
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.719019 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7344
+IOU for Structure :	0.2252
+IOU for Road      :	0.8191
+IOU for Track     :	0.3135
+IOU for Trees     :	0.7307
+IOU for Crops     :	0.8783
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8210
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6776
+Mean IOU          :	0.5636
+Save prediction ...
+0:01:44.202398
+0:00:00.260506
+0:01:44.418089
+0:00:00.261045
+0:01:44.421253
+0:00:00.261053
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.670053 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7465
+IOU for Structure :	0.2127
+IOU for Road      :	0.8493
+IOU for Track     :	0.3614
+IOU for Trees     :	0.7351
+IOU for Crops     :	0.8950
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8863
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7221
+Mean IOU          :	0.5826
+Save prediction ...
+Saving Net ! ...
+0:01:44.208438
+0:00:00.260521
+0:01:44.437758
+0:00:00.261094
+0:01:44.414625
+0:00:00.261037
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.731935 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7483
+IOU for Structure :	0.1867
+IOU for Road      :	0.8389
+IOU for Track     :	0.3706
+IOU for Trees     :	0.7283
+IOU for Crops     :	0.8926
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8089
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7191
+Mean IOU          :	0.5721
+Save prediction ...
+0:01:44.219138
+0:00:00.260548
+0:01:44.429602
+0:00:00.261074
+0:01:44.429293
+0:00:00.261073
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.634904 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7425
+IOU for Structure :	0.2036
+IOU for Road      :	0.8084
+IOU for Track     :	0.3305
+IOU for Trees     :	0.7209
+IOU for Crops     :	0.8791
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8657
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6919
+Mean IOU          :	0.5675
+Save prediction ...
+0:01:44.236726
+0:00:00.260592
+0:01:44.437913
+0:00:00.261095
+0:01:44.434057
+0:00:00.261085
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.697759 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7427
+IOU for Structure :	0.1825
+IOU for Road      :	0.8550
+IOU for Track     :	0.3651
+IOU for Trees     :	0.7189
+IOU for Crops     :	0.8884
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8886
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7242
+Mean IOU          :	0.5787
+Save prediction ...
+0:01:44.201437
+0:00:00.260504
+0:01:44.434893
+0:00:00.261087
+0:01:44.433791
+0:00:00.261084
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.676257 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7362
+IOU for Structure :	0.2590
+IOU for Road      :	0.8277
+IOU for Track     :	0.3940
+IOU for Trees     :	0.7252
+IOU for Crops     :	0.8750
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8687
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6873
+Mean IOU          :	0.5794
+Save prediction ...
+0:01:44.216263
+0:00:00.260541
+0:01:44.433440
+0:00:00.261084
+0:01:44.395617
+0:00:00.260989
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.677698 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7373
+IOU for Structure :	0.1280
+IOU for Road      :	0.7385
+IOU for Track     :	0.3516
+IOU for Trees     :	0.7293
+IOU for Crops     :	0.8852
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8963
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6819
+Mean IOU          :	0.5589
+Save prediction ...
+0:01:44.212750
+0:00:00.260532
+0:01:44.421190
+0:00:00.261053
+0:01:44.420612
+0:00:00.261052
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.682662 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7239
+IOU for Structure :	0.1752
+IOU for Road      :	0.8444
+IOU for Track     :	0.3370
+IOU for Trees     :	0.7341
+IOU for Crops     :	0.8938
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8743
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7157
+Mean IOU          :	0.5726
+Save prediction ...
+0:01:44.222926
+0:00:00.260557
+0:01:44.429201
+0:00:00.261073
+0:01:44.411659
+0:00:00.261029
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.637138 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7418
+IOU for Structure :	0.2217
+IOU for Road      :	0.8444
+IOU for Track     :	0.3580
+IOU for Trees     :	0.7357
+IOU for Crops     :	0.8873
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8648
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7121
+Mean IOU          :	0.5787
+Save prediction ...
+0:01:44.247266
+0:00:00.260618
+0:01:44.419357
+0:00:00.261048
+0:01:44.416812
+0:00:00.261042
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.669522 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7481
+IOU for Structure :	0.1825
+IOU for Road      :	0.8298
+IOU for Track     :	0.3707
+IOU for Trees     :	0.7344
+IOU for Crops     :	0.8923
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8030
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7256
+Mean IOU          :	0.5715
+Save prediction ...
+0:01:44.245006
+0:00:00.260613
+0:01:44.416754
+0:00:00.261042
+0:01:44.418274
+0:00:00.261046
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.675206 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7479
+IOU for Structure :	0.1544
+IOU for Road      :	0.8438
+IOU for Track     :	0.3557
+IOU for Trees     :	0.7192
+IOU for Crops     :	0.8914
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8621
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7289
+Mean IOU          :	0.5730
+Save prediction ...
+0:01:44.191189
+0:00:00.260478
+0:01:44.415583
+0:00:00.261039
+0:01:44.406241
+0:00:00.261016
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.677592 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7438
+IOU for Structure :	0.1675
+IOU for Road      :	0.8519
+IOU for Track     :	0.3631
+IOU for Trees     :	0.7343
+IOU for Crops     :	0.8961
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9069
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7277
+Mean IOU          :	0.5810
+Save prediction ...
+0:01:44.227759
+0:00:00.260569
+0:01:44.418041
+0:00:00.261045
+0:01:44.414808
+0:00:00.261037
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.632087 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7359
+IOU for Structure :	0.1925
+IOU for Road      :	0.7910
+IOU for Track     :	0.3473
+IOU for Trees     :	0.7253
+IOU for Crops     :	0.8882
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8977
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7203
+Mean IOU          :	0.5726
+Save prediction ...
+0:01:44.231575
+0:00:00.260579
+0:01:44.406689
+0:00:00.261017
+0:01:44.395945
+0:00:00.260990
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.648374 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7363
+IOU for Structure :	0.2115
+IOU for Road      :	0.8256
+IOU for Track     :	0.2840
+IOU for Trees     :	0.7324
+IOU for Crops     :	0.8938
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8743
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7110
+Mean IOU          :	0.5699
+Save prediction ...
+0:01:44.215191
+0:00:00.260538
+0:01:44.408055
+0:00:00.261020
+0:01:44.406653
+0:00:00.261017
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.650641 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7300
+IOU for Structure :	0.2084
+IOU for Road      :	0.7818
+IOU for Track     :	0.3784
+IOU for Trees     :	0.7288
+IOU for Crops     :	0.8928
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9042
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7117
+Mean IOU          :	0.5760
+Save prediction ...
+0:01:44.230637
+0:00:00.260577
+0:01:44.413037
+0:00:00.261033
+0:01:44.398053
+0:00:00.260995
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.756636 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7273
+IOU for Structure :	0.1362
+IOU for Road      :	0.7800
+IOU for Track     :	0.3638
+IOU for Trees     :	0.7287
+IOU for Crops     :	0.8832
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8887
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7044
+Mean IOU          :	0.5647
+Save prediction ...
+0:01:44.208671
+0:00:00.260522
+0:01:44.417766
+0:00:00.261044
+0:01:44.413615
+0:00:00.261034
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.674645 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7427
+IOU for Structure :	0.2389
+IOU for Road      :	0.7152
+IOU for Track     :	0.3732
+IOU for Trees     :	0.7323
+IOU for Crops     :	0.8884
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7833
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6916
+Mean IOU          :	0.5605
+Save prediction ...
+0:01:44.261395
+0:00:00.260653
+0:01:44.421305
+0:00:00.261053
+0:01:44.424562
+0:00:00.261061
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.671365 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7535
+IOU for Structure :	0.2088
+IOU for Road      :	0.8182
+IOU for Track     :	0.3332
+IOU for Trees     :	0.7300
+IOU for Crops     :	0.8906
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8420
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7152
+Mean IOU          :	0.5720
+Save prediction ...
+0:01:44.223449
+0:00:00.260559
+0:01:44.416670
+0:00:00.261042
+0:01:44.417574
+0:00:00.261044
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.740830 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7386
+IOU for Structure :	0.1771
+IOU for Road      :	0.7977
+IOU for Track     :	0.3747
+IOU for Trees     :	0.7339
+IOU for Crops     :	0.8826
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8786
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7170
+Mean IOU          :	0.5727
+Save prediction ...
+0:01:44.244094
+0:00:00.260610
+0:01:44.432656
+0:00:00.261082
+0:01:44.411199
+0:00:00.261028
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.664021 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7419
+IOU for Structure :	0.2164
+IOU for Road      :	0.5115
+IOU for Track     :	0.3243
+IOU for Trees     :	0.7238
+IOU for Crops     :	0.8753
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8096
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6642
+Mean IOU          :	0.5334
+Save prediction ...
+0:01:44.194986
+0:00:00.260487
+0:01:44.439007
+0:00:00.261098
+0:01:44.425670
+0:00:00.261064
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.648478 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7449
+IOU for Structure :	0.1732
+IOU for Road      :	0.7558
+IOU for Track     :	0.3688
+IOU for Trees     :	0.7342
+IOU for Crops     :	0.8944
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8708
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7171
+Mean IOU          :	0.5690
+Save prediction ...
+0:01:44.209613
+0:00:00.260524
+0:01:44.413680
+0:00:00.261034
+0:01:44.407885
+0:00:00.261020
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.734381 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7318
+IOU for Structure :	0.1892
+IOU for Road      :	0.8502
+IOU for Track     :	0.3410
+IOU for Trees     :	0.7308
+IOU for Crops     :	0.8937
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8830
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7315
+Mean IOU          :	0.5774
+Save prediction ...
+0:01:44.191642
+0:00:00.260479
+0:01:44.417741
+0:00:00.261044
+0:01:44.467711
+0:00:00.261169
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.674436 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7312
+IOU for Structure :	0.1861
+IOU for Road      :	0.8206
+IOU for Track     :	0.3301
+IOU for Trees     :	0.7288
+IOU for Crops     :	0.8557
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8778
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6846
+Mean IOU          :	0.5650
+Save prediction ...
+0:01:44.230994
+0:00:00.260577
+0:01:44.426097
+0:00:00.261065
+0:01:44.420670
+0:00:00.261052
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.657173 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7342
+IOU for Structure :	0.1648
+IOU for Road      :	0.8514
+IOU for Track     :	0.3804
+IOU for Trees     :	0.7338
+IOU for Crops     :	0.8935
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8534
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7255
+Mean IOU          :	0.5761
+Save prediction ...
+0:01:44.244284
+0:00:00.260611
+0:01:44.425437
+0:00:00.261064
+0:01:44.409333
+0:00:00.261023
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.667260 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7427
+IOU for Structure :	0.1831
+IOU for Road      :	0.8524
+IOU for Track     :	0.3306
+IOU for Trees     :	0.7304
+IOU for Crops     :	0.8973
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8579
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7334
+Mean IOU          :	0.5752
+Save prediction ...
+0:01:44.199248
+0:00:00.260498
+0:01:44.425440
+0:00:00.261064
+0:01:44.403593
+0:00:00.261009
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.693924 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7542
+IOU for Structure :	0.2349
+IOU for Road      :	0.8651
+IOU for Track     :	0.3570
+IOU for Trees     :	0.7160
+IOU for Crops     :	0.8892
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8852
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7193
+Mean IOU          :	0.5837
+Save prediction ...
+Saving Net ! ...
+0:01:44.200899
+0:00:00.260502
+0:01:44.406460
+0:00:00.261016
+0:01:44.420744
+0:00:00.261052
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.663567 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7306
+IOU for Structure :	0.2020
+IOU for Road      :	0.8616
+IOU for Track     :	0.3493
+IOU for Trees     :	0.6992
+IOU for Crops     :	0.8930
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8813
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7333
+Mean IOU          :	0.5773
+Save prediction ...
+0:01:44.201115
+0:00:00.260503
+0:01:44.424047
+0:00:00.261060
+0:01:44.431257
+0:00:00.261078
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.667926 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7504
+IOU for Structure :	0.2129
+IOU for Road      :	0.8009
+IOU for Track     :	0.3386
+IOU for Trees     :	0.7320
+IOU for Crops     :	0.8808
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7879
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7105
+Mean IOU          :	0.5649
+Save prediction ...
+0:01:44.197643
+0:00:00.260494
+0:01:44.421203
+0:00:00.261053
+0:01:44.419739
+0:00:00.261049
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.674819 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7521
+IOU for Structure :	0.2450
+IOU for Road      :	0.8534
+IOU for Track     :	0.3863
+IOU for Trees     :	0.7334
+IOU for Crops     :	0.9002
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8573
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7328
+Mean IOU          :	0.5873
+Save prediction ...
+Saving Net ! ...
+0:01:44.185557
+0:00:00.260464
+0:01:44.425684
+0:00:00.261064
+0:01:44.412057
+0:00:00.261030
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.691631 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7389
+IOU for Structure :	0.1873
+IOU for Road      :	0.7915
+IOU for Track     :	0.3327
+IOU for Trees     :	0.7118
+IOU for Crops     :	0.8862
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8040
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7217
+Mean IOU          :	0.5613
+Save prediction ...
+0:01:44.242248
+0:00:00.260606
+0:01:44.417964
+0:00:00.261045
+0:01:44.407524
+0:00:00.261019
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.715265 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7576
+IOU for Structure :	0.1929
+IOU for Road      :	0.8504
+IOU for Track     :	0.3996
+IOU for Trees     :	0.7381
+IOU for Crops     :	0.8938
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8866
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7159
+Mean IOU          :	0.5850
+Save prediction ...
+0:01:44.260720
+0:00:00.260652
+0:01:44.431241
+0:00:00.261078
+0:01:44.427882
+0:00:00.261070
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.666336 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7475
+IOU for Structure :	0.2278
+IOU for Road      :	0.8104
+IOU for Track     :	0.3422
+IOU for Trees     :	0.7282
+IOU for Crops     :	0.9010
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8488
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7354
+Mean IOU          :	0.5765
+Save prediction ...
+0:01:44.293173
+0:00:00.260733
+0:01:44.407480
+0:00:00.261019
+0:01:44.420457
+0:00:00.261051
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.669529 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7437
+IOU for Structure :	0.2442
+IOU for Road      :	0.8671
+IOU for Track     :	0.3186
+IOU for Trees     :	0.7311
+IOU for Crops     :	0.8941
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8429
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7306
+Mean IOU          :	0.5793
+Save prediction ...
+0:01:44.264595
+0:00:00.260661
+0:01:44.411938
+0:00:00.261030
+0:01:44.407949
+0:00:00.261020
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.702710 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7497
+IOU for Structure :	0.2400
+IOU for Road      :	0.8515
+IOU for Track     :	0.2981
+IOU for Trees     :	0.7324
+IOU for Crops     :	0.8947
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7748
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7326
+Mean IOU          :	0.5703
+Save prediction ...
+0:01:44.230092
+0:00:00.260575
+0:01:44.410588
+0:00:00.261026
+0:01:44.398215
+0:00:00.260996
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.722870 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7509
+IOU for Structure :	0.1580
+IOU for Road      :	0.8593
+IOU for Track     :	0.3864
+IOU for Trees     :	0.7357
+IOU for Crops     :	0.8970
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8680
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7236
+Mean IOU          :	0.5799
+Save prediction ...
+0:01:44.241092
+0:00:00.260603
+0:01:44.416688
+0:00:00.261042
+0:01:44.414337
+0:00:00.261036
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.686066 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7436
+IOU for Structure :	0.1633
+IOU for Road      :	0.8437
+IOU for Track     :	0.3232
+IOU for Trees     :	0.7310
+IOU for Crops     :	0.8973
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8433
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7347
+Mean IOU          :	0.5709
+Save prediction ...
+0:01:44.189756
+0:00:00.260474
+0:01:44.396542
+0:00:00.260991
+0:01:44.402339
+0:00:00.261006
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.668063 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7462
+IOU for Structure :	0.1948
+IOU for Road      :	0.8582
+IOU for Track     :	0.3779
+IOU for Trees     :	0.7298
+IOU for Crops     :	0.8919
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9079
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7122
+Mean IOU          :	0.5835
+Save prediction ...
+0:01:44.228486
+0:00:00.260571
+0:01:44.406968
+0:00:00.261017
+0:01:44.422600
+0:00:00.261056
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.650238 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7489
+IOU for Structure :	0.1820
+IOU for Road      :	0.8582
+IOU for Track     :	0.3254
+IOU for Trees     :	0.7359
+IOU for Crops     :	0.8820
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8246
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.6921
+Mean IOU          :	0.5681
+Save prediction ...
+0:01:44.223350
+0:00:00.260558
+0:01:44.431681
+0:00:00.261079
+0:01:44.423191
+0:00:00.261058
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.727807 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7573
+IOU for Structure :	0.1949
+IOU for Road      :	0.8343
+IOU for Track     :	0.2983
+IOU for Trees     :	0.7297
+IOU for Crops     :	0.8904
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9070
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7253
+Mean IOU          :	0.5761
+Save prediction ...
+0:01:44.178105
+0:00:00.260445
+0:01:44.423361
+0:00:00.261058
+0:01:44.406914
+0:00:00.261017
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.680178 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7544
+IOU for Structure :	0.1973
+IOU for Road      :	0.8533
+IOU for Track     :	0.3047
+IOU for Trees     :	0.7341
+IOU for Crops     :	0.8982
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8579
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7305
+Mean IOU          :	0.5755
+Save prediction ...
+0:01:44.191651
+0:00:00.260479
+0:01:44.400382
+0:00:00.261001
+0:01:44.415936
+0:00:00.261040
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.666960 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7488
+IOU for Structure :	0.2160
+IOU for Road      :	0.8583
+IOU for Track     :	0.3779
+IOU for Trees     :	0.7357
+IOU for Crops     :	0.9008
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8453
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7430
+Mean IOU          :	0.5842
+Save prediction ...
+0:01:44.244309
+0:00:00.260611
+0:01:44.433196
+0:00:00.261083
+0:01:44.425525
+0:00:00.261064
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.702180 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7490
+IOU for Structure :	0.2429
+IOU for Road      :	0.8572
+IOU for Track     :	0.4008
+IOU for Trees     :	0.7327
+IOU for Crops     :	0.8962
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8767
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7241
+Mean IOU          :	0.5891
+Save prediction ...
+Saving Net ! ...
+0:01:44.221939
+0:00:00.260555
+0:01:44.427334
+0:00:00.261068
+0:01:44.428849
+0:00:00.261072
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.664260 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7459
+IOU for Structure :	0.2051
+IOU for Road      :	0.7647
+IOU for Track     :	0.3878
+IOU for Trees     :	0.7335
+IOU for Crops     :	0.8716
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8420
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7062
+Mean IOU          :	0.5688
+Save prediction ...
+0:01:44.225874
+0:00:00.260565
+0:01:44.406009
+0:00:00.261015
+0:01:44.407627
+0:00:00.261019
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.726900 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7502
+IOU for Structure :	0.2343
+IOU for Road      :	0.8352
+IOU for Track     :	0.3729
+IOU for Trees     :	0.7326
+IOU for Crops     :	0.8984
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8842
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7328
+Mean IOU          :	0.5855
+Save prediction ...
+0:01:44.202049
+0:00:00.260505
+0:01:44.417609
+0:00:00.261044
+0:01:44.408839
+0:00:00.261022
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.694318 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7617
+IOU for Structure :	0.2627
+IOU for Road      :	0.8547
+IOU for Track     :	0.4282
+IOU for Trees     :	0.7372
+IOU for Crops     :	0.9016
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8775
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0021
+IOU for Background:	0.7338
+Mean IOU          :	0.5963
+Save prediction ...
+Saving Net ! ...
+0:01:44.199427
+0:00:00.260499
+0:01:44.418567
+0:00:00.261046
+0:01:44.421979
+0:00:00.261055
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.685006 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7572
+IOU for Structure :	0.2621
+IOU for Road      :	0.8554
+IOU for Track     :	0.3799
+IOU for Trees     :	0.7293
+IOU for Crops     :	0.8962
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8778
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7297
+Mean IOU          :	0.5898
+Save prediction ...
+0:01:44.213502
+0:00:00.260534
+0:01:44.432151
+0:00:00.261080
+0:01:44.415252
+0:00:00.261038
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.656532 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7448
+IOU for Structure :	0.1783
+IOU for Road      :	0.8549
+IOU for Track     :	0.3881
+IOU for Trees     :	0.7304
+IOU for Crops     :	0.8664
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8854
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7088
+Mean IOU          :	0.5779
+Save prediction ...
+0:01:44.215581
+0:00:00.260539
+0:01:44.414665
+0:00:00.261037
+0:01:44.400705
+0:00:00.261002
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.658380 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7465
+IOU for Structure :	0.1897
+IOU for Road      :	0.8611
+IOU for Track     :	0.3599
+IOU for Trees     :	0.7351
+IOU for Crops     :	0.8979
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8577
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7203
+Mean IOU          :	0.5789
+Save prediction ...
+0:01:44.194859
+0:00:00.260487
+0:01:44.413787
+0:00:00.261034
+0:01:44.451855
+0:00:00.261130
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.687256 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7633
+IOU for Structure :	0.1924
+IOU for Road      :	0.8152
+IOU for Track     :	0.3959
+IOU for Trees     :	0.7377
+IOU for Crops     :	0.9023
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8287
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0024
+IOU for Background:	0.7315
+Mean IOU          :	0.5790
+Save prediction ...
+0:01:44.222028
+0:00:00.260555
+0:01:44.418559
+0:00:00.261046
+0:01:44.432410
+0:00:00.261081
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.650274 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7570
+IOU for Structure :	0.2445
+IOU for Road      :	0.8377
+IOU for Track     :	0.4106
+IOU for Trees     :	0.7359
+IOU for Crops     :	0.8979
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7938
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0012
+IOU for Background:	0.7346
+Mean IOU          :	0.5830
+Save prediction ...
+0:01:44.243423
+0:00:00.260609
+0:01:44.420165
+0:00:00.261050
+0:01:44.426814
+0:00:00.261067
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.705801 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7392
+IOU for Structure :	0.2071
+IOU for Road      :	0.8020
+IOU for Track     :	0.3032
+IOU for Trees     :	0.7369
+IOU for Crops     :	0.8947
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7744
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7307
+Mean IOU          :	0.5626
+Save prediction ...
+0:01:44.213855
+0:00:00.260535
+0:01:44.402002
+0:00:00.261005
+0:01:44.407985
+0:00:00.261020
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.660910 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7510
+IOU for Structure :	0.1839
+IOU for Road      :	0.8438
+IOU for Track     :	0.3185
+IOU for Trees     :	0.7376
+IOU for Crops     :	0.8920
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8771
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7323
+Mean IOU          :	0.5760
+Save prediction ...
+0:01:44.203205
+0:00:00.260508
+0:01:44.410878
+0:00:00.261027
+0:01:44.398675
+0:00:00.260997
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.677552 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7394
+IOU for Structure :	0.1611
+IOU for Road      :	0.8598
+IOU for Track     :	0.3637
+IOU for Trees     :	0.7381
+IOU for Crops     :	0.8991
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8361
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7243
+Mean IOU          :	0.5747
+Save prediction ...
+0:01:44.202766
+0:00:00.260507
+0:01:44.431155
+0:00:00.261078
+0:01:44.413588
+0:00:00.261034
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.666910 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7520
+IOU for Structure :	0.2020
+IOU for Road      :	0.8071
+IOU for Track     :	0.3448
+IOU for Trees     :	0.7306
+IOU for Crops     :	0.8836
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8700
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0003
+IOU for Background:	0.7152
+Mean IOU          :	0.5732
+Save prediction ...
+0:01:44.217934
+0:00:00.260545
+0:01:44.387770
+0:00:00.260969
+0:01:44.415213
+0:00:00.261038
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.786296 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7422
+IOU for Structure :	0.2080
+IOU for Road      :	0.8324
+IOU for Track     :	0.3419
+IOU for Trees     :	0.7348
+IOU for Crops     :	0.9039
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8712
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7431
+Mean IOU          :	0.5798
+Save prediction ...
+0:01:44.236494
+0:00:00.260591
+0:01:44.416868
+0:00:00.261042
+0:01:44.430564
+0:00:00.261076
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.659951 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7558
+IOU for Structure :	0.2335
+IOU for Road      :	0.8376
+IOU for Track     :	0.3847
+IOU for Trees     :	0.7344
+IOU for Crops     :	0.9042
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9060
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0060
+IOU for Background:	0.7411
+Mean IOU          :	0.5912
+Save prediction ...
+0:01:44.259381
+0:00:00.260648
+0:01:44.411925
+0:00:00.261030
+0:01:44.410555
+0:00:00.261026
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.699852 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7517
+IOU for Structure :	0.1824
+IOU for Road      :	0.8650
+IOU for Track     :	0.4139
+IOU for Trees     :	0.7394
+IOU for Crops     :	0.9030
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8461
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0000
+IOU for Background:	0.7422
+Mean IOU          :	0.5858
+Save prediction ...
+0:01:44.240321
+0:00:00.260601
+0:01:44.429082
+0:00:00.261073
+0:01:44.409165
+0:00:00.261023
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.668541 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7571
+IOU for Structure :	0.2686
+IOU for Road      :	0.8637
+IOU for Track     :	0.3898
+IOU for Trees     :	0.7446
+IOU for Crops     :	0.9069
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8920
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0030
+IOU for Background:	0.7488
+Mean IOU          :	0.5977
+Save prediction ...
+Saving Net ! ...
+0:01:44.231473
+0:00:00.260579
+0:01:44.404290
+0:00:00.261011
+0:01:44.421660
+0:00:00.261054
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.666288 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7627
+IOU for Structure :	0.2732
+IOU for Road      :	0.8335
+IOU for Track     :	0.3604
+IOU for Trees     :	0.7390
+IOU for Crops     :	0.9039
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8599
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0150
+IOU for Background:	0.7430
+Mean IOU          :	0.5901
+Save prediction ...
+0:01:44.192949
+0:00:00.260482
+0:01:44.405550
+0:00:00.261014
+0:01:44.399925
+0:00:00.261000
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.667834 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7598
+IOU for Structure :	0.2335
+IOU for Road      :	0.8504
+IOU for Track     :	0.3978
+IOU for Trees     :	0.7412
+IOU for Crops     :	0.9055
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8902
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0006
+IOU for Background:	0.7510
+Mean IOU          :	0.5936
+Save prediction ...
+0:01:44.233575
+0:00:00.260584
+0:01:44.390204
+0:00:00.260976
+0:01:44.405107
+0:00:00.261013
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.670933 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7537
+IOU for Structure :	0.1641
+IOU for Road      :	0.8614
+IOU for Track     :	0.4100
+IOU for Trees     :	0.7427
+IOU for Crops     :	0.9004
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8483
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0083
+IOU for Background:	0.7421
+Mean IOU          :	0.5846
+Save prediction ...
+0:01:44.197900
+0:00:00.260495
+0:01:44.408483
+0:00:00.261021
+0:01:44.422421
+0:00:00.261056
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.673771 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7605
+IOU for Structure :	0.2472
+IOU for Road      :	0.8635
+IOU for Track     :	0.4033
+IOU for Trees     :	0.7389
+IOU for Crops     :	0.9073
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8962
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0009
+IOU for Background:	0.7496
+Mean IOU          :	0.5970
+Save prediction ...
+0:01:44.206857
+0:00:00.260517
+0:01:44.416475
+0:00:00.261041
+0:01:44.417017
+0:00:00.261043
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.651666 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7646
+IOU for Structure :	0.2427
+IOU for Road      :	0.8689
+IOU for Track     :	0.3343
+IOU for Trees     :	0.7423
+IOU for Crops     :	0.9022
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8726
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0165
+IOU for Background:	0.7501
+Mean IOU          :	0.5904
+Save prediction ...
+0:01:44.186166
+0:00:00.260465
+0:01:44.401619
+0:00:00.261004
+0:01:44.400885
+0:00:00.261002
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.709164 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7551
+IOU for Structure :	0.2643
+IOU for Road      :	0.8263
+IOU for Track     :	0.3731
+IOU for Trees     :	0.7384
+IOU for Crops     :	0.8881
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8459
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0194
+IOU for Background:	0.7241
+Mean IOU          :	0.5850
+Save prediction ...
+0:01:44.193090
+0:00:00.260483
+0:01:44.412147
+0:00:00.261030
+0:01:44.418560
+0:00:00.261046
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.701886 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7648
+IOU for Structure :	0.2465
+IOU for Road      :	0.8695
+IOU for Track     :	0.4032
+IOU for Trees     :	0.7361
+IOU for Crops     :	0.9072
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8847
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0104
+IOU for Background:	0.7453
+Mean IOU          :	0.5971
+Save prediction ...
+0:01:44.212178
+0:00:00.260530
+0:01:44.401172
+0:00:00.261003
+0:01:44.403491
+0:00:00.261009
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.687327 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7635
+IOU for Structure :	0.2406
+IOU for Road      :	0.8540
+IOU for Track     :	0.4243
+IOU for Trees     :	0.7416
+IOU for Crops     :	0.9078
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8745
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0188
+IOU for Background:	0.7513
+Mean IOU          :	0.5979
+Save prediction ...
+Saving Net ! ...
+0:01:44.172105
+0:00:00.260430
+0:01:44.413064
+0:00:00.261033
+0:01:44.424156
+0:00:00.261060
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.663783 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7582
+IOU for Structure :	0.2592
+IOU for Road      :	0.8501
+IOU for Track     :	0.4226
+IOU for Trees     :	0.7428
+IOU for Crops     :	0.9108
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8949
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0207
+IOU for Background:	0.7561
+Mean IOU          :	0.6014
+Save prediction ...
+Saving Net ! ...
+0:01:44.172139
+0:00:00.260430
+0:01:44.408130
+0:00:00.261020
+0:01:44.412176
+0:00:00.261030
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.648097 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7618
+IOU for Structure :	0.2546
+IOU for Road      :	0.8720
+IOU for Track     :	0.3658
+IOU for Trees     :	0.7397
+IOU for Crops     :	0.9075
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8705
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0104
+IOU for Background:	0.7526
+Mean IOU          :	0.5941
+Save prediction ...
+0:01:44.242377
+0:00:00.260606
+0:01:44.394815
+0:00:00.260987
+0:01:44.409946
+0:00:00.261025
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.683017 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7598
+IOU for Structure :	0.1981
+IOU for Road      :	0.8197
+IOU for Track     :	0.4150
+IOU for Trees     :	0.7416
+IOU for Crops     :	0.9075
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8754
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0124
+IOU for Background:	0.7521
+Mean IOU          :	0.5892
+Save prediction ...
+0:01:44.207684
+0:00:00.260519
+0:01:44.403707
+0:00:00.261009
+0:01:44.413548
+0:00:00.261034
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.679657 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7533
+IOU for Structure :	0.1961
+IOU for Road      :	0.8748
+IOU for Track     :	0.4110
+IOU for Trees     :	0.7434
+IOU for Crops     :	0.9119
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8877
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0113
+IOU for Background:	0.7616
+Mean IOU          :	0.5956
+Save prediction ...
+0:01:44.212856
+0:00:00.260532
+0:01:44.405648
+0:00:00.261014
+0:01:44.397971
+0:00:00.260995
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.719448 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7546
+IOU for Structure :	0.1843
+IOU for Road      :	0.8731
+IOU for Track     :	0.3837
+IOU for Trees     :	0.7461
+IOU for Crops     :	0.9102
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.7245
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0015
+IOU for Background:	0.7559
+Mean IOU          :	0.5758
+Save prediction ...
+0:01:44.223484
+0:00:00.260559
+0:01:44.422744
+0:00:00.261057
+0:01:44.426171
+0:00:00.261065
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.713066 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7512
+IOU for Structure :	0.2058
+IOU for Road      :	0.8598
+IOU for Track     :	0.3968
+IOU for Trees     :	0.7438
+IOU for Crops     :	0.9110
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8736
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0036
+IOU for Background:	0.7606
+Mean IOU          :	0.5915
+Save prediction ...
+0:01:44.239102
+0:00:00.260598
+0:01:44.420505
+0:00:00.261051
+0:01:44.416262
+0:00:00.261041
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.689682 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7635
+IOU for Structure :	0.2672
+IOU for Road      :	0.8635
+IOU for Track     :	0.3695
+IOU for Trees     :	0.7427
+IOU for Crops     :	0.9152
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8799
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0098
+IOU for Background:	0.7637
+Mean IOU          :	0.5977
+Save prediction ...
+0:01:44.225347
+0:00:00.260563
+0:01:44.438340
+0:00:00.261096
+0:01:44.417813
+0:00:00.261045
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.692396 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7572
+IOU for Structure :	0.2381
+IOU for Road      :	0.8652
+IOU for Track     :	0.3862
+IOU for Trees     :	0.7405
+IOU for Crops     :	0.9063
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8909
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0003
+IOU for Background:	0.7558
+Mean IOU          :	0.5946
+Save prediction ...
+0:01:44.235655
+0:00:00.260589
+0:01:44.419283
+0:00:00.261048
+0:01:44.417624
+0:00:00.261044
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.716849 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7633
+IOU for Structure :	0.2507
+IOU for Road      :	0.8415
+IOU for Track     :	0.4005
+IOU for Trees     :	0.7436
+IOU for Crops     :	0.9095
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8850
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0145
+IOU for Background:	0.7488
+Mean IOU          :	0.5961
+Save prediction ...
+0:01:44.283982
+0:00:00.260710
+0:01:44.414629
+0:00:00.261037
+0:01:44.417946
+0:00:00.261045
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.672517 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7544
+IOU for Structure :	0.2371
+IOU for Road      :	0.8568
+IOU for Track     :	0.3218
+IOU for Trees     :	0.7418
+IOU for Crops     :	0.9175
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8921
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0166
+IOU for Background:	0.7683
+Mean IOU          :	0.5915
+Save prediction ...
+0:01:44.259425
+0:00:00.260649
+0:01:44.436548
+0:00:00.261091
+0:01:44.411969
+0:00:00.261030
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.730419 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7608
+IOU for Structure :	0.2208
+IOU for Road      :	0.8505
+IOU for Track     :	0.3776
+IOU for Trees     :	0.7414
+IOU for Crops     :	0.9018
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8736
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0148
+IOU for Background:	0.7526
+Mean IOU          :	0.5904
+Save prediction ...
+0:01:44.272747
+0:00:00.260682
+0:01:44.410147
+0:00:00.261025
+0:01:44.412163
+0:00:00.261030
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.766732 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7625
+IOU for Structure :	0.2102
+IOU for Road      :	0.8722
+IOU for Track     :	0.3939
+IOU for Trees     :	0.7354
+IOU for Crops     :	0.9116
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8811
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0156
+IOU for Background:	0.7597
+Mean IOU          :	0.5948
+Save prediction ...
+0:01:44.254802
+0:00:00.260637
+0:01:44.425687
+0:00:00.261064
+0:01:44.398263
+0:00:00.260996
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.710299 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7602
+IOU for Structure :	0.2730
+IOU for Road      :	0.8670
+IOU for Track     :	0.3996
+IOU for Trees     :	0.7412
+IOU for Crops     :	0.9116
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8876
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0062
+IOU for Background:	0.7618
+Mean IOU          :	0.6008
+Save prediction ...
+0:01:44.249316
+0:00:00.260623
+0:01:44.415356
+0:00:00.261038
+0:01:44.416720
+0:00:00.261042
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.683881 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7671
+IOU for Structure :	0.2669
+IOU for Road      :	0.8609
+IOU for Track     :	0.3697
+IOU for Trees     :	0.7415
+IOU for Crops     :	0.9077
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9008
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0139
+IOU for Background:	0.7491
+Mean IOU          :	0.5980
+Save prediction ...
+0:01:44.258605
+0:00:00.260647
+0:01:44.425804
+0:00:00.261065
+0:01:44.429846
+0:00:00.261075
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.696387 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7667
+IOU for Structure :	0.2454
+IOU for Road      :	0.8450
+IOU for Track     :	0.4039
+IOU for Trees     :	0.7388
+IOU for Crops     :	0.9144
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8673
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0155
+IOU for Background:	0.7632
+Mean IOU          :	0.5964
+Save prediction ...
+0:01:44.219650
+0:00:00.260549
+0:01:44.430419
+0:00:00.261076
+0:01:44.431668
+0:00:00.261079
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.667663 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7656
+IOU for Structure :	0.2705
+IOU for Road      :	0.8731
+IOU for Track     :	0.3886
+IOU for Trees     :	0.7451
+IOU for Crops     :	0.9123
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8932
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0223
+IOU for Background:	0.7668
+Mean IOU          :	0.6034
+Save prediction ...
+Saving Net ! ...
+0:01:44.189095
+0:00:00.260473
+0:01:44.414076
+0:00:00.261035
+0:01:44.419241
+0:00:00.261048
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.694108 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7646
+IOU for Structure :	0.2347
+IOU for Road      :	0.8754
+IOU for Track     :	0.3902
+IOU for Trees     :	0.7425
+IOU for Crops     :	0.9154
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8777
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0133
+IOU for Background:	0.7673
+Mean IOU          :	0.5983
+Save prediction ...
+0:01:44.223487
+0:00:00.260559
+0:01:44.408746
+0:00:00.261022
+0:01:44.427374
+0:00:00.261068
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.727833 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7618
+IOU for Structure :	0.2387
+IOU for Road      :	0.8475
+IOU for Track     :	0.3777
+IOU for Trees     :	0.7368
+IOU for Crops     :	0.9147
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8465
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0050
+IOU for Background:	0.7668
+Mean IOU          :	0.5905
+Save prediction ...
+0:01:44.207512
+0:00:00.260519
+0:01:44.428569
+0:00:00.261071
+0:01:44.438137
+0:00:00.261095
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.678920 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7663
+IOU for Structure :	0.2295
+IOU for Road      :	0.8709
+IOU for Track     :	0.4027
+IOU for Trees     :	0.7413
+IOU for Crops     :	0.9145
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8799
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0223
+IOU for Background:	0.7682
+Mean IOU          :	0.5996
+Save prediction ...
+0:01:44.263009
+0:00:00.260658
+0:01:44.429259
+0:00:00.261073
+0:01:44.489498
+0:00:00.261224
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.697114 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7633
+IOU for Structure :	0.2834
+IOU for Road      :	0.8223
+IOU for Track     :	0.4095
+IOU for Trees     :	0.7409
+IOU for Crops     :	0.9141
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9128
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0179
+IOU for Background:	0.7600
+Mean IOU          :	0.6022
+Save prediction ...
+0:01:44.229048
+0:00:00.260573
+0:01:44.420028
+0:00:00.261050
+0:01:44.413455
+0:00:00.261034
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.659561 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7456
+IOU for Structure :	0.2175
+IOU for Road      :	0.8734
+IOU for Track     :	0.3994
+IOU for Trees     :	0.7468
+IOU for Crops     :	0.9054
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8309
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0185
+IOU for Background:	0.7544
+Mean IOU          :	0.5902
+Save prediction ...
+0:01:44.234489
+0:00:00.260586
+0:01:44.440826
+0:00:00.261102
+0:01:44.432289
+0:00:00.261081
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.668316 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7582
+IOU for Structure :	0.2129
+IOU for Road      :	0.8547
+IOU for Track     :	0.4056
+IOU for Trees     :	0.7430
+IOU for Crops     :	0.9045
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8839
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0230
+IOU for Background:	0.7532
+Mean IOU          :	0.5945
+Save prediction ...
+0:01:44.262786
+0:00:00.260657
+0:01:44.499349
+0:00:00.261248
+0:01:44.413971
+0:00:00.261035
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.726555 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7639
+IOU for Structure :	0.2641
+IOU for Road      :	0.8178
+IOU for Track     :	0.4156
+IOU for Trees     :	0.7457
+IOU for Crops     :	0.9138
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9098
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0201
+IOU for Background:	0.7537
+Mean IOU          :	0.6004
+Save prediction ...
+0:01:44.226662
+0:00:00.260567
+0:01:44.429162
+0:00:00.261073
+0:01:44.440118
+0:00:00.261100
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.676178 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7558
+IOU for Structure :	0.1761
+IOU for Road      :	0.8613
+IOU for Track     :	0.3563
+IOU for Trees     :	0.7373
+IOU for Crops     :	0.9099
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8566
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0191
+IOU for Background:	0.7556
+Mean IOU          :	0.5844
+Save prediction ...
+0:01:44.231455
+0:00:00.260579
+0:01:44.422916
+0:00:00.261057
+0:01:44.430420
+0:00:00.261076
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.672449 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7591
+IOU for Structure :	0.2460
+IOU for Road      :	0.8607
+IOU for Track     :	0.3715
+IOU for Trees     :	0.7396
+IOU for Crops     :	0.9123
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9065
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0223
+IOU for Background:	0.7644
+Mean IOU          :	0.5984
+Save prediction ...
+0:01:44.257188
+0:00:00.260643
+0:01:44.411050
+0:00:00.261028
+0:01:44.438156
+0:00:00.261095
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.684125 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7661
+IOU for Structure :	0.2588
+IOU for Road      :	0.8607
+IOU for Track     :	0.4106
+IOU for Trees     :	0.7388
+IOU for Crops     :	0.9159
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8649
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0162
+IOU for Background:	0.7665
+Mean IOU          :	0.5999
+Save prediction ...
+0:01:44.236559
+0:00:00.260591
+0:01:44.432453
+0:00:00.261081
+0:01:44.416525
+0:00:00.261041
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.726462 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7622
+IOU for Structure :	0.2490
+IOU for Road      :	0.8678
+IOU for Track     :	0.3972
+IOU for Trees     :	0.7430
+IOU for Crops     :	0.9099
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9161
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0330
+IOU for Background:	0.7522
+Mean IOU          :	0.6028
+Save prediction ...
+0:01:44.216195
+0:00:00.260540
+0:01:44.413513
+0:00:00.261034
+0:01:44.419175
+0:00:00.261048
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.692385 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7563
+IOU for Structure :	0.2250
+IOU for Road      :	0.8669
+IOU for Track     :	0.3523
+IOU for Trees     :	0.7467
+IOU for Crops     :	0.9149
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8918
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0380
+IOU for Background:	0.7614
+Mean IOU          :	0.5958
+Save prediction ...
+0:01:44.229826
+0:00:00.260575
+0:01:44.404628
+0:00:00.261012
+0:01:44.394172
+0:00:00.260985
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.724376 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7578
+IOU for Structure :	0.2048
+IOU for Road      :	0.8769
+IOU for Track     :	0.3826
+IOU for Trees     :	0.7408
+IOU for Crops     :	0.9146
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8289
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0112
+IOU for Background:	0.7638
+Mean IOU          :	0.5892
+Save prediction ...
+0:01:44.257743
+0:00:00.260644
+0:01:44.542503
+0:00:00.261356
+0:01:44.426162
+0:00:00.261065
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.670686 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7675
+IOU for Structure :	0.2767
+IOU for Road      :	0.8447
+IOU for Track     :	0.4190
+IOU for Trees     :	0.7340
+IOU for Crops     :	0.9121
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8771
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0257
+IOU for Background:	0.7605
+Mean IOU          :	0.6016
+Save prediction ...
+0:01:44.280532
+0:00:00.260701
+0:01:44.418298
+0:00:00.261046
+0:01:44.414362
+0:00:00.261036
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.678711 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7629
+IOU for Structure :	0.2453
+IOU for Road      :	0.8775
+IOU for Track     :	0.3720
+IOU for Trees     :	0.7496
+IOU for Crops     :	0.9100
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8832
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0421
+IOU for Background:	0.7584
+Mean IOU          :	0.6001
+Save prediction ...
+0:01:44.289565
+0:00:00.260724
+0:01:44.407205
+0:00:00.261018
+0:01:44.422342
+0:00:00.261056
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.677141 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7547
+IOU for Structure :	0.2402
+IOU for Road      :	0.8830
+IOU for Track     :	0.4059
+IOU for Trees     :	0.7473
+IOU for Crops     :	0.9135
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8148
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0276
+IOU for Background:	0.7614
+Mean IOU          :	0.5953
+Save prediction ...
+0:01:44.293293
+0:00:00.260733
+0:01:44.409250
+0:00:00.261023
+0:01:44.422013
+0:00:00.261055
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.659431 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7673
+IOU for Structure :	0.2104
+IOU for Road      :	0.8748
+IOU for Track     :	0.4093
+IOU for Trees     :	0.7428
+IOU for Crops     :	0.8970
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8641
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0250
+IOU for Background:	0.7404
+Mean IOU          :	0.5937
+Save prediction ...
+0:01:44.305515
+0:00:00.260764
+0:01:44.431057
+0:00:00.261078
+0:01:44.438595
+0:00:00.261096
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.717241 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7643
+IOU for Structure :	0.2542
+IOU for Road      :	0.8797
+IOU for Track     :	0.4183
+IOU for Trees     :	0.7448
+IOU for Crops     :	0.9178
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9013
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0086
+IOU for Background:	0.7689
+Mean IOU          :	0.6053
+Save prediction ...
+Saving Net ! ...
+0:01:44.244427
+0:00:00.260611
+0:01:44.424235
+0:00:00.261061
+0:01:44.414527
+0:00:00.261036
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.731838 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7618
+IOU for Structure :	0.2391
+IOU for Road      :	0.8693
+IOU for Track     :	0.3989
+IOU for Trees     :	0.7413
+IOU for Crops     :	0.9097
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8944
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0329
+IOU for Background:	0.7589
+Mean IOU          :	0.6006
+Save prediction ...
+0:01:44.243555
+0:00:00.260609
+0:01:44.414743
+0:00:00.261037
+0:01:44.426965
+0:00:00.261067
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.686957 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7702
+IOU for Structure :	0.2849
+IOU for Road      :	0.8620
+IOU for Track     :	0.4012
+IOU for Trees     :	0.7408
+IOU for Crops     :	0.9158
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9045
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0257
+IOU for Background:	0.7676
+Mean IOU          :	0.6066
+Save prediction ...
+Saving Net ! ...
+0:01:44.213435
+0:00:00.260534
+0:01:44.421895
+0:00:00.261055
+0:01:44.415838
+0:00:00.261040
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.675473 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7700
+IOU for Structure :	0.2584
+IOU for Road      :	0.8669
+IOU for Track     :	0.3901
+IOU for Trees     :	0.7445
+IOU for Crops     :	0.9115
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8764
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0321
+IOU for Background:	0.7611
+Mean IOU          :	0.6010
+Save prediction ...
+0:01:44.206527
+0:00:00.260516
+0:01:44.416790
+0:00:00.261042
+0:01:44.420217
+0:00:00.261051
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.691320 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7610
+IOU for Structure :	0.2443
+IOU for Road      :	0.8752
+IOU for Track     :	0.4174
+IOU for Trees     :	0.7441
+IOU for Crops     :	0.9159
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8936
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0174
+IOU for Background:	0.7649
+Mean IOU          :	0.6031
+Save prediction ...
+0:01:44.210680
+0:00:00.260527
+0:01:44.439809
+0:00:00.261100
+0:01:44.433159
+0:00:00.261083
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.717895 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7697
+IOU for Structure :	0.2706
+IOU for Road      :	0.8518
+IOU for Track     :	0.4005
+IOU for Trees     :	0.7442
+IOU for Crops     :	0.9213
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9018
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0331
+IOU for Background:	0.7730
+Mean IOU          :	0.6060
+Save prediction ...
+0:01:44.227068
+0:00:00.260568
+0:01:44.424868
+0:00:00.261062
+0:01:44.443447
+0:00:00.261109
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.650033 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7606
+IOU for Structure :	0.2265
+IOU for Road      :	0.8767
+IOU for Track     :	0.3504
+IOU for Trees     :	0.7481
+IOU for Crops     :	0.9173
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8811
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0262
+IOU for Background:	0.7698
+Mean IOU          :	0.5961
+Save prediction ...
+0:01:44.255448
+0:00:00.260639
+0:01:44.428678
+0:00:00.261072
+0:01:44.427109
+0:00:00.261068
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.663078 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7517
+IOU for Structure :	0.2215
+IOU for Road      :	0.8503
+IOU for Track     :	0.3964
+IOU for Trees     :	0.7407
+IOU for Crops     :	0.9163
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8481
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0285
+IOU for Background:	0.7581
+Mean IOU          :	0.5920
+Save prediction ...
+0:01:44.227435
+0:00:00.260569
+0:01:44.409338
+0:00:00.261023
+0:01:44.438697
+0:00:00.261097
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.695879 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7653
+IOU for Structure :	0.2663
+IOU for Road      :	0.8507
+IOU for Track     :	0.3920
+IOU for Trees     :	0.7419
+IOU for Crops     :	0.9146
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8475
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0304
+IOU for Background:	0.7666
+Mean IOU          :	0.5978
+Save prediction ...
+0:01:44.230324
+0:00:00.260576
+0:01:44.411465
+0:00:00.261029
+0:01:44.420755
+0:00:00.261052
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.722324 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7694
+IOU for Structure :	0.2321
+IOU for Road      :	0.8511
+IOU for Track     :	0.3819
+IOU for Trees     :	0.7417
+IOU for Crops     :	0.9096
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8881
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0248
+IOU for Background:	0.7634
+Mean IOU          :	0.5966
+Save prediction ...
+0:01:44.239225
+0:00:00.260598
+0:01:44.408519
+0:00:00.261021
+0:01:44.420279
+0:00:00.261051
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.677519 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7647
+IOU for Structure :	0.1886
+IOU for Road      :	0.8573
+IOU for Track     :	0.3957
+IOU for Trees     :	0.7417
+IOU for Crops     :	0.9150
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8678
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0258
+IOU for Background:	0.7678
+Mean IOU          :	0.5931
+Save prediction ...
+0:01:44.249611
+0:00:00.260624
+0:01:44.426107
+0:00:00.261065
+0:01:44.417430
+0:00:00.261044
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.725855 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7661
+IOU for Structure :	0.2937
+IOU for Road      :	0.8798
+IOU for Track     :	0.4368
+IOU for Trees     :	0.7447
+IOU for Crops     :	0.9120
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8865
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0305
+IOU for Background:	0.7638
+Mean IOU          :	0.6104
+Save prediction ...
+Saving Net ! ...
+0:01:44.188700
+0:00:00.260472
+0:01:44.415264
+0:00:00.261038
+0:01:44.421664
+0:00:00.261054
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.710055 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7637
+IOU for Structure :	0.2500
+IOU for Road      :	0.8531
+IOU for Track     :	0.3847
+IOU for Trees     :	0.7437
+IOU for Crops     :	0.9115
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8733
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0317
+IOU for Background:	0.7608
+Mean IOU          :	0.5975
+Save prediction ...
+0:01:44.252957
+0:00:00.260632
+0:01:44.422891
+0:00:00.261057
+0:01:44.424391
+0:00:00.261061
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.712994 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7637
+IOU for Structure :	0.2292
+IOU for Road      :	0.8675
+IOU for Track     :	0.3539
+IOU for Trees     :	0.7446
+IOU for Crops     :	0.9189
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8996
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0358
+IOU for Background:	0.7759
+Mean IOU          :	0.5990
+Save prediction ...
+0:01:44.259741
+0:00:00.260649
+0:01:44.431883
+0:00:00.261080
+0:01:44.417091
+0:00:00.261043
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.689396 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7667
+IOU for Structure :	0.2568
+IOU for Road      :	0.8419
+IOU for Track     :	0.3814
+IOU for Trees     :	0.7478
+IOU for Crops     :	0.9136
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8868
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0287
+IOU for Background:	0.7582
+Mean IOU          :	0.5984
+Save prediction ...
+0:01:44.241521
+0:00:00.260604
+0:01:44.418820
+0:00:00.261047
+0:01:44.432901
+0:00:00.261082
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.718603 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7690
+IOU for Structure :	0.2641
+IOU for Road      :	0.8795
+IOU for Track     :	0.4176
+IOU for Trees     :	0.7439
+IOU for Crops     :	0.9176
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9086
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0181
+IOU for Background:	0.7715
+Mean IOU          :	0.6082
+Save prediction ...
+0:01:44.278418
+0:00:00.260696
+0:01:44.428689
+0:00:00.261072
+0:01:44.426186
+0:00:00.261065
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.708888 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7707
+IOU for Structure :	0.2602
+IOU for Road      :	0.8765
+IOU for Track     :	0.4070
+IOU for Trees     :	0.7480
+IOU for Crops     :	0.9146
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9022
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0392
+IOU for Background:	0.7681
+Mean IOU          :	0.6079
+Save prediction ...
+0:01:44.251883
+0:00:00.260630
+0:01:44.433839
+0:00:00.261085
+0:01:44.430036
+0:00:00.261075
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.687366 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7679
+IOU for Structure :	0.2596
+IOU for Road      :	0.8703
+IOU for Track     :	0.4139
+IOU for Trees     :	0.7438
+IOU for Crops     :	0.9190
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9086
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0329
+IOU for Background:	0.7718
+Mean IOU          :	0.6080
+Save prediction ...
+0:01:44.247649
+0:00:00.260619
+0:01:44.433617
+0:00:00.261084
+0:01:44.414821
+0:00:00.261037
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.686572 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7705
+IOU for Structure :	0.2752
+IOU for Road      :	0.8598
+IOU for Track     :	0.4425
+IOU for Trees     :	0.7456
+IOU for Crops     :	0.9165
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.9123
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0438
+IOU for Background:	0.7635
+Mean IOU          :	0.6118
+Save prediction ...
+Saving Net ! ...
+0:01:44.218265
+0:00:00.260546
+0:01:44.428811
+0:00:00.261072
+0:01:44.428402
+0:00:00.261071
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.708199 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7699
+IOU for Structure :	0.2691
+IOU for Road      :	0.8650
+IOU for Track     :	0.4231
+IOU for Trees     :	0.7437
+IOU for Crops     :	0.9173
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8994
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0284
+IOU for Background:	0.7710
+Mean IOU          :	0.6079
+Save prediction ...
+0:01:44.262055
+0:00:00.260655
+0:01:44.417571
+0:00:00.261044
+0:01:44.414981
+0:00:00.261037
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.718753 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7719
+IOU for Structure :	0.2965
+IOU for Road      :	0.8722
+IOU for Track     :	0.4017
+IOU for Trees     :	0.7472
+IOU for Crops     :	0.9150
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8878
+IOU for Truck     :	0.0044
+IOU for Car       :	0.0230
+IOU for Background:	0.7593
+Mean IOU          :	0.6072
+Save prediction ...
+0:01:44.250070
+0:00:00.260625
+0:01:44.444915
+0:00:00.261112
+0:01:44.427895
+0:00:00.261070
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.665693 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7694
+IOU for Structure :	0.2708
+IOU for Road      :	0.8808
+IOU for Track     :	0.3793
+IOU for Trees     :	0.7511
+IOU for Crops     :	0.9185
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8843
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0474
+IOU for Background:	0.7765
+Mean IOU          :	0.6071
+Save prediction ...
+0:01:44.249408
+0:00:00.260624
+0:01:44.450902
+0:00:00.261127
+0:01:44.470675
+0:00:00.261177
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:03.648124 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.7750
+IOU for Structure :	0.2698
+IOU for Road      :	0.8592
+IOU for Track     :	0.3949
+IOU for Trees     :	0.7452
+IOU for Crops     :	0.9093
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.8831
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0372
+IOU for Background:	0.7622
+Mean IOU          :	0.6033
+Save prediction ...
+0:01:44.250498
+0:00:00.260626
+0:01:44.430875
+0:00:00.261077
+[2019-09-18 18:05:33.058420] Creating and compiling model...
+[2019-09-18 18:05:35.362888] Reading train...
+(24, 11, 3345, 3338)
+0:00:08.855624
+0:00:00.885562
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...
+Prediction Time: 0:00:04.136872 Seconds
+[Prediction]: fit the prediction patches ...
+Evaluate Accuracy ...
+IOU for Building  :	0.6616
+IOU for Structure :	0.1308
+IOU for Road      :	0.1410
+IOU for Track     :	0.3311
+IOU for Trees     :	0.5804
+IOU for Crops     :	0.4859
+IOU for Fast_H20  :	1.0000
+IOU for Slow_H20  :	0.3135
+IOU for Truck     :	0.0000
+IOU for Car       :	0.0007
+IOU for Background:	0.5589
+Mean IOU          :	0.3822
+Save prediction ...
+Saving Net ! ...
+0:00:02.510581
+0:00:00.251058
+Making predictions ...
+[Prediction]: getting sliding window patches ...
+[Prediction]: make predictions ...

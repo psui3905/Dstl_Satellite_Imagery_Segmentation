@@ -73,24 +73,32 @@ class Model(object):
         self.x = self.qx.dequeue()
         self.y = self.qy.dequeue()
         self.u_x = self.qu_x.dequeue()
+
         
         # Using Pi model
         self.pi_model = True
-
-        self.ramp = 0
+        self.unlabled_training = False
+        self.ramp = 100
 
         if self.pi_model:
             pi_structure = PiModel()
-            z_labeled, self.model = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-            z_labeled_i, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-            z_u_labeled, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-            z_u_labeled_i, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
-
-            self.model_test = unet(x_shape, keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=False, reuse=tf.AUTO_REUSE, **kwargs)
-            self.cost = get_loss(self, z_labeled, cost, cost_kwargs) + self.ramp * (tf.losses.mean_squared_error(z_labeled, z_labeled_i)+tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
-            logits = z_labeled
-        else:
+            if self.unlabled_training:
+                z_u_labeled, self.model = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+                z_u_labeled_i, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+                logits = z_u_labeled
+                self.cost = self.ramp * (tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
+            else:
+                z_labeled, self.model = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+                z_labeled_i, _ = pi_structure.call(self.x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+                z_u_labeled, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+                z_u_labeled_i, _ = pi_structure.call(self.u_x, True, self.keep_prob, channels, batch_norm, n_class, img_rows, img_cols, is_train, cropping, cost_kwargs, **kwargs)
+                
+                logits = z_labeled
+                self.unsuper_loss = tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i)
+                self.cost = get_loss(self, z_labeled, cost, cost_kwargs) + self.ramp * (tf.losses.mean_squared_error(z_labeled, z_labeled_i)+tf.losses.mean_squared_error(z_u_labeled, z_u_labeled_i))
+            self.model_test = unet(self.x_shape, self.keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=False, reuse=tf.AUTO_REUSE, **kwargs)
             
+        else:
             # create model 
             if model_type == "u-net":
                 self.model = unet(self.x, self.keep_prob, channels, n_class, img_rows, img_cols, batch_norm, is_train=True, reuse=False, **kwargs)
@@ -181,7 +189,7 @@ class Model(object):
         batch = int(x_test.shape[0] / 16)
         prediction = np.empty((0, self.y.shape[1] ,self.y.shape[2]), dtype=np.float32)
         for i in range(batch+1):
-            print("[Prediction][model] -- iter " + str(i))
+            # print("[Prediction][model] -- iter " + str(i))
             if i < batch:
                 b = x_test[i*16:(i+1)*16, :, :, :]
                 #pred = tl.utils.predict(sess, self.model_test, b, self.x, self.pred_test, b.shape[0])
