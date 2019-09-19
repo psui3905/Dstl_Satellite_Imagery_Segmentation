@@ -145,7 +145,7 @@ class PiModel:
         """
 
         if training:
-            h = self.__aditive_gaussian_noise(X, 0.15)
+            h, noise = self.__aditive_gaussian_noise(X, 0.15)
             # h = self.__apply_image_augmentation(h)
         else:
             h = X
@@ -170,7 +170,7 @@ class PiModel:
         """
 
         noise = tf.random_normal(shape=tf.shape(input), mean=0.0, stddev=std, dtype=tf.float32)
-        return input + noise
+        return input + noise, noise
 
     def __apply_image_augmentation(self, image):
         """ Applies random transformation to the image
