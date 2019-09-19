@@ -165,7 +165,7 @@ class Trainer(object):
 
         # restore model for continue training
         if restore:
-            self.net.restore(sess, output_path + 'highest_model.npz')
+            self.net.restore(sess, output_path + '600_model.npz')
 
         summary_writer = tf.summary.FileWriter(output_path, graph=sess.graph)
         logging.info("Start optimization")
@@ -185,7 +185,7 @@ class Trainer(object):
         for epoch in range(epochs):
             total_loss = 0
             now = datetime.datetime.now()
-            ramp_value = ramp_up_function(epoch*10, 80)
+            ramp_value = ramp_up_function(epoch, 80)
             for step in range((epoch * training_iters), ((epoch + 1) * training_iters)):
 
                 # load data
@@ -194,10 +194,10 @@ class Trainer(object):
                 # Run optimization op (backprop)
                 summary_str, _, loss, lr, acc, jaccard, unsuper_loss, n_ramp_loss = sess.run(
                         (self.summary_op, self.optimizer, self.net.cost, self.learning_rate_node, self.net.accuracy, self.net.jaccard, 
-                        self.net.unsuper_loss, self.net.loss_n_ramp), feed_dict={self.net.ramp:ramp_up_function(epoch*10, 80)})
+                        self.net.unsuper_loss, self.net.loss_n_ramp), feed_dict={self.net.ramp:ramp_up_function(epoch, 80)})
                 # Look into the code below (currently not used)
                 #if self.net.summaries and self.norm_grads:
-                #    avg_gradients = _update_avg_gradients(avg_gradients, gradients, step)
+                #    avg_gradients = _update_avg_gradients(avg_gradients, gradients, step)bd
                 #    norm_gradients = [np.linalg.norm(gradient) for gradient in avg_gradients]
                 #    self.norm_gradients_node.assign(norm_gradients).eval()
 
